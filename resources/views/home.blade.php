@@ -1,23 +1,13 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" />
+@extends('master')
+@section('meta')
+<title>HOME</title>
+@endsection
+@section('content')
 
-    <!-- title -->
-    <title>HOME</title>
-    <link rel="stylesheet" href="../css/main.css" />
-
-    <script
-      src="https://kit.fontawesome.com/f320c552c0.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
     <div class="main">
       <div class="image-container">
-        <img src="assets/image/Group 69.png" alt="Main Img" />
+        <img class="" src="{{ asset('image/Group 69.png') }}" alt="">
+
         <div class="main-overlay">
           <h2>EXQUISITE</h2>
           <h2>GIFTS</h2>
@@ -549,7 +539,6 @@
         </div>
       </footer>
     </div>
-  </body>
 
 
   <script>
@@ -587,4 +576,6 @@
 
     
   </script>
-</html>
+
+
+@endsection
