@@ -568,7 +568,7 @@ input[type=checkbox] {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
   margin-top: 2rem;
@@ -1075,6 +1075,7 @@ svg {
   }
 }
 /*CART*/
+/* Global "table" column settings */
 .product-image {
   float: left;
   width: 20%;
@@ -1730,13 +1731,8 @@ Sidebar
   font-weight: 600;
   color: #5a5a5a;
 }
-.team-box h4 {
-  font-size: clamp(20px, 2.25vw, 40px);
-  font-weight: 500;
-  color: #5a5a5a;
-}
 .team-box h5 {
-  font-size: clamp(15px, 1.75vw, 20px);
+  font-size: clamp(20px, 2.25vw, 40px);
   font-weight: 500;
   color: #5a5a5a;
 }/*# sourceMappingURL=main.css.map */

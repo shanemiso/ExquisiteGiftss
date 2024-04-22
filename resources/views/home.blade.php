@@ -95,23 +95,23 @@
       <div class="content">
         <h2>OUR FAVOURITES</h2>
         <div class="gallery">
-          <div class="gallery__item gallery__item--1">
+          <div class="gallery__item test gallery__item--1">
             <img
               src="{{ asset('image/grid-img1.png') }}"
               alt="Gallery image 1"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button  class="buttontest">lol</button>
 
           </div>
-          <div class="gallery__item gallery__item--2">
+          <div class="gallery__item test gallery__item--2">
             <img
               src="{{ asset('image/grid-img2.png') }}"
 
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest">Centered</button>
 
           </div>
           <div class="gallery__item gallery__item--3">
