@@ -287,6 +287,15 @@ input[type='checkbox'] {
         margin-top: 2rem;
     }
 
+    .buttontest{
+        opacity: 0;
+        z-index:  100;
+    }
+
+    .test:hover .buttontest{
+        opacity:1;
+      }
+
     .gallery__item--1 {
         grid-column: 1 / 7;
         grid-row: 1 / 4;
