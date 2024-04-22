@@ -5,7 +5,14 @@
 @section('content')
 
     <div class="main">
-    <nav class="navbar">
+  
+      <div class="secondary-img">
+      <img src="{{ asset('image/marketplace-banner.png') }}" alt="Main Img" />
+        <div class="secondary-overlay">
+          <h2>READY TO SHIP</h2>
+        </div>
+      </div>
+      <nav class="navbar-transparent">
         <!-- NAVIGATION MENU -->
         <ul class="nav-links">
           <input type="checkbox" id="checkbox_toggle" />
@@ -13,13 +20,16 @@
 
           <!-- NAVIGATION MENUS -->
           <div class="menu">
+          <div class="nav-logo">
+              <a href="/"><img src="{{ asset('image/2-white.png') }}"/></a>
+            </div>
             <li><a href="/coorporate">COORPORATE GIFTS</a></li>
             <li><a href="/about">ABOUT</a></li>
-            <li><a href="/marketplace">SHOP</a></li>
+            <li><a href="/shopnow">SHOP</a></li>
             <li><a href="/buildbox1">BUILD A BOX</a></li>
             <li><a href="/readytoship">READY TO SHIP</a></li>
             <div class="nav-icon">
-              <a href="#"><i class="fa-regular fa-heart"></i></a>
+            <a href="/marketplace"><i class="fa-regular fa-heart"></i></a>
               <a href="/profile"><i class="fa-regular fa-user"></i></a>
               <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
               <a href="/cart"><i class="fa-solid fa-cart-shopping"></i></a>
@@ -27,13 +37,6 @@
           </div>
         </ul>
       </nav>
-      <div class="secondary-img">
-        <img src="assets/image/marketplace-banner.png" alt="Main Img" />
-        <div class="secondary-overlay">
-          <h2>READY TO SHIP</h2>
-        </div>
-      </div>
-     
       <section class="app">
         <aside class="sidebar">
           <header>Menu</header>
@@ -41,7 +44,7 @@
             <ul>
               <li>
                 <form onsubmit="event.preventDefault();" role="search">
-                  <label for="search">Search for stuff</label>
+                  <label for="search">Search </label>
                   <input
                     id="search"
                     type="search"
@@ -49,7 +52,6 @@
                     autofocus
                     required
                   />
-                  <button type="submit">Go</button>
                 </form>
               </li>
               <li>

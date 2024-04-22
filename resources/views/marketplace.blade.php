@@ -11,7 +11,7 @@
           <h2>MARKETPLACE</h2>
         </div>
       </div>
-      <nav class="navbar">
+      <nav class="navbar-transparent">
         <!-- NAVIGATION MENU -->
         <ul class="nav-links">
           <input type="checkbox" id="checkbox_toggle" />
@@ -19,13 +19,16 @@
 
           <!-- NAVIGATION MENUS -->
           <div class="menu">
+          <div class="nav-logo">
+              <a href="/"><img src="{{ asset('image/2-white.png') }}"/></a>
+            </div>
             <li><a href="/coorporate">COORPORATE GIFTS</a></li>
             <li><a href="/about">ABOUT</a></li>
-            <li><a href="/marketplace">SHOP</a></li>
+            <li><a href="/shopnow">SHOP</a></li>
             <li><a href="/buildbox1">BUILD A BOX</a></li>
             <li><a href="/readytoship">READY TO SHIP</a></li>
             <div class="nav-icon">
-              <a href="#"><i class="fa-regular fa-heart"></i></a>
+            <a href="/marketplace"><i class="fa-regular fa-heart"></i></a>
               <a href="/profile"><i class="fa-regular fa-user"></i></a>
               <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
               <a href="/cart"><i class="fa-solid fa-cart-shopping"></i></a>
@@ -40,7 +43,7 @@
             <ul>
               <li>
                 <form onsubmit="event.preventDefault();" role="search">
-                  <label for="search">Search for stuff</label>
+                  <label for="search">Search</label>
                   <input
                     id="search"
                     type="search"
@@ -48,21 +51,19 @@
                     autofocus
                     required
                   />
-                  <button type="submit">Go</button>
                 </form>
               </li>
               <li>
-                <a href="#"><i class="ion-bag"></i> <span>Shop</span></a>
+                <a href="#"><span>Shop</span></a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="#">Controls</span></a
+>
               </li>
               <li>
                 <a href="#"
-                  ><i class="ion-ios-settings"></i>
-                  <span class="">Controls</span></a
-                >
-              </li>
-              <li>
-                <a href="#"
-                  ><i class="ion-ios-briefcase-outline"></i>
+                  >
                   <span class="">Folio</span></a
                 >
               </li>
@@ -84,6 +85,7 @@
             class="grid-item grid-item-2"
             src="{{ asset('image/choose5.png') }}"            alt=""
           />
+
           <p>Father's Day</p>
         </div>
         <div>

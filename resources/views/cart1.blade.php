@@ -13,13 +13,16 @@
 
           <!-- NAVIGATION MENUS -->
           <div class="menu">
+          <div class="nav-logo">
+              <a href="/"><img src="{{ asset('image/2.png') }}"/></a>
+            </div>
             <li><a href="/coorporate">COORPORATE GIFTS</a></li>
             <li><a href="/about">ABOUT</a></li>
-            <li><a href="/marketplace">SHOP</a></li>
+            <li><a href="/shopnow">SHOP</a></li>
             <li><a href="/buildbox1">BUILD A BOX</a></li>
             <li><a href="/readytoship">READY TO SHIP</a></li>
             <div class="nav-icon">
-              <a href="#"><i class="fa-regular fa-heart"></i></a>
+            <a href="/marketplace"><i class="fa-regular fa-heart"></i></a>
               <a href="/profile"><i class="fa-regular fa-user"></i></a>
               <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
               <a href="/cart"><i class="fa-solid fa-cart-shopping"></i></a>
@@ -130,30 +133,9 @@
             <td>$8.95</td>
             <td><span class="remove"><i class="fa-regular fa-trash-can"></i></span></td>
           </tr>
-          <tr class="productitm">
-            <!-- http://www.amazon.com/SpongeBob-SquarePants-The-First-Episodes/dp/B002DYJTVW -->
-            <td><img src="https://i.imgur.com/vZ26Uwy.png" class="thumb"></td>
-            <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
-            <td>SpongeBob's First 100 Episodes</td>
-            <td>$75.00</td>
-            <td><span class="remove"><img src="https://i.imgur.com/h1ldGRr.png" alt="X"></span></td>
-          </tr>
-          <tr class="productitm">
-            <!-- http://www.barnesandnoble.com/w/javascript-and-jquery-david-sawyer-mcfarland/1100405042 -->
-            <td><img src="https://i.imgur.com/tEdRnz4.png" class="thumb"></td>
-            <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
-            <td>JavaScript &amp; jQuery: The Missing Manual</td>
-            <td>$27.50</td>
-            <td><span class="remove"><img src="https://i.imgur.com/h1ldGRr.png" alt="X"></span></td>
-          </tr>
           
           <!-- tax + subtotal -->
-          <tr class="extracosts">
-            <td class="light">Shipping &amp; Tax</td>
-            <td colspan="2" class="light"></td>
-            <td>$35.00</td>
-            <td>&nbsp;</td>
-          </tr>
+        
           <tr class="totalprice">
             <td class="light">Total:</td>
             <td colspan="2">&nbsp;</td>
@@ -162,7 +144,7 @@
           
           <!-- checkout btn -->
           <tr class="checkoutrow">
-            <td colspan="5" class="checkout"><button id="submitbtn">Checkout Now!</button></td>
+            <td colspan="5" class="checkout">Checkout Now</td>
           </tr>
         </tbody>
       </table>

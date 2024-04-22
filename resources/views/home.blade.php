@@ -13,14 +13,14 @@
           <h2>GIFTS</h2>
           <p>Changing the way of gifting.</p>
           <p>Curated with Love.</p>
-          <div class="shop-btn"><a href="marketplace.html">SHOP NOW</a></div>
+          <div class="shop-btn"><a href="/marketplace">SHOP NOW</a></div>
         </div>
       </div>
       <div class="main-content">
         <h2>WELCOME TO</h2>
         <h1>EXQUISITE GIFTS</h1>
       </div>
-      <nav class="navbar">
+      <nav class="navbar-transparent">
         <!-- NAVIGATION MENU -->
         <ul class="nav-links">
           <input type="checkbox" id="checkbox_toggle" />
@@ -28,13 +28,16 @@
 
           <!-- NAVIGATION MENUS -->
           <div class="menu">
+            <div class="nav-logo">
+              <a href="/"><img src="{{ asset('image/2-white.png') }}"/></a>
+            </div>
             <li><a href="/coorporate">COORPORATE GIFTS</a></li>
             <li><a href="/about">ABOUT</a></li>
-            <li><a href="/marketplace">SHOP</a></li>
+            <li><a href="/shopnow">SHOP</a></li>
             <li><a href="/buildbox1">BUILD A BOX</a></li>
             <li><a href="/readytoship">READY TO SHIP</a></li>
             <div class="nav-icon">
-              <a href="#"><i class="fa-regular fa-heart"></i></a>
+            <a href="/marketplace"><i class="fa-regular fa-heart"></i></a>
               <a href="/profile"><i class="fa-regular fa-user"></i></a>
               <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
               <a href="/cart"><i class="fa-solid fa-cart-shopping"></i></a>
@@ -101,7 +104,9 @@
               alt="Gallery image 1"
               class="gallery__img"
             />
-            <button  class="buttontest">lol</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
+
+
 
           </div>
           <div class="gallery__item test gallery__item--2">
@@ -111,195 +116,204 @@
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now buttontest">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
-          <div class="gallery__item gallery__item--3">
+          <div class="modal">
+    <div class="modal-header">
+        <h3>Modal Title</h3>
+        <label for="modal">
+        <i class="fa-regular fa-heart" alt=""></i>
+        </label>
+    </div>
+    <p>Content for the modal</p>
+</div>
+          <div class="gallery__item test gallery__item--3">
             <img
               src="{{ asset('image/grid-img3.png') }}"
 
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
-          <div class="gallery__item gallery__item--4">
+          <div class="gallery__item test gallery__item--4">
             <img
               src="{{ asset('image/grid-img4.png') }}"
 
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
-          <div class="gallery__item gallery__item--5">
+          <div class="gallery__item test gallery__item--5">
             <img
               src="{{ asset('image/grid-img5.png') }}"
 
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
-          <div class="gallery__item gallery__item--6">
+          <div class="gallery__item test gallery__item--6">
             <img
               src="{{ asset('image/grid-img6.png') }}"
 
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
-          <div class="gallery__item gallery__item--7">
+          <div class="gallery__item test gallery__item--7">
             <img
               src="{{ asset('image/grid-img7.png') }}"
 
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
-          <div class="gallery__item gallery__item--8">
+          <div class="gallery__item test gallery__item--8">
             <img
               src="{{ asset('image/grid-img8.png') }}"
 
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
         </div>
         <div class="gallery-2">
-          <div class="gallery__item gallery__item--1">
+          <div class="gallery__item test gallery__item--1">
             <img
               src="{{ asset('image/grid-img1.png') }}"
 
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
-          <div class="gallery__item gallery__item--2">
+          <div class="gallery__item test gallery__item--2">
             <img
               src="{{ asset('image/grid-img3.png') }}"
 
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
-          <div class="gallery__item gallery__item--3">
+          <div class="gallery__item test gallery__item--3">
             <img
               src="{{ asset('image/grid-img4.png') }}"
 
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
-          <div class="gallery__item gallery__item--4">
+          <div class="gallery__item test gallery__item--4">
             <img
             src="{{ asset('image/grid-img7.png') }}"
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
-          <div class="gallery__item gallery__item--5">
+          <div class="gallery__item test gallery__item--5">
             <img
               src="{{ asset('image/grid-img5.png') }}"
 
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
         </div>
         <div class="gallery-3">
-          <div class="gallery__item gallery__item--1">
+          <div class="gallery__item test gallery__item--1">
             <img
               src="{{ asset('image/grid-img1.png') }}"
 
               alt="Gallery image 1"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
-          <div class="gallery__item gallery__item--2">
+          <div class="gallery__item test gallery__item--2">
             <img
               src="{{ asset('image/grid-img2.png') }}"
 
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
-          <div class="gallery__item gallery__item--3">
+          <div class="gallery__item test gallery__item--3">
             <img
               src="{{ asset('image/grid-img3.png') }}"
 
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
-          <div class="gallery__item gallery__item--4">
+          <div class="gallery__item test gallery__item--4">
             <img
             src="{{ asset('image/grid-img4.png') }}"
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
-          <div class="gallery__item gallery__item--5">
+          <div class="gallery__item test gallery__item--5">
             <img
             src="{{ asset('image/grid-img5.png') }}"
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
-          <div class="gallery__item gallery__item--6">
+          <div class="gallery__item test gallery__item--6">
             <img
             src="{{ asset('image/grid-img6.png') }}"
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
-          <div class="gallery__item gallery__item--7">
+          <div class="gallery__item test gallery__item--7">
             <img
             src="{{ asset('image/grid-img7.png') }}"
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
-          <div class="gallery__item gallery__item--8">
+          <div class="gallery__item test gallery__item--8">
             <img
             src="{{ asset('image/grid-img8.png') }}"
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now">Centered</button>
+            <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
         </div>
@@ -329,7 +343,7 @@
         <img src="{{ asset('image/holiday-banner.png') }}"alt="Banner Image" />
         <div class="overlay-text">
           <h2>HOLIDAY SPECIAL</h2>
-          <div class="shop-btn"><a href="marketplace.html">SHOP NOW</a></div>
+          <div class="shop-btn"><a href="/marketplace">SHOP NOW</a></div>
         </div>
       </div>
       <div class="content">
@@ -394,14 +408,14 @@
         </div>
 
         <div class="pagination"></div>
-        <div class="shop-btn"><a href="marketplace.html">SHOP NOW</a></div>
+        <div class="shop-btn"><a href="/marketplace">SHOP NOW</a></div>
       </div>
       <div class="marketplace-banner">
         <img                 src="{{ asset('image/marketplace-banner.png') }}"
  alt="Banner Image" />
         <div class="overlay-text">
           <h2>MARKETPLACE</h2>
-          <div class="shop-btn"><a href="marketplace.html">SHOP NOW</a></div>
+          <div class="shop-btn"><a href="/marketplace">SHOP NOW</a></div>
         </div>
       </div>
       <div class="card-container">
@@ -423,7 +437,7 @@
             sdfghjklxcvbnmk,dfghjkiqwertyuiosdfghjkvbnmdfghjkertyuiodsfgh
             jkcvbnmdfghjertyuidfghjcvbnmghnjfg.
           </p>
-          <div class="shop-btn"><a href="marketplace.html">SHOP NOW</a></div>
+          <div class="shop-btn"><a href="/marketplace">SHOP NOW</a></div>
         </div>
       </div>
       <div class="content">

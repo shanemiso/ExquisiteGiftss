@@ -78,27 +78,63 @@ li {
     list-style: none;
 }
 
-.navbar {
-    position: absolute;
+.navbar-transparent{
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
+    height: 100px;
+    z-index: 4;
     background-color: none;
     display: flex;
     align-content: center;
-    justify-content: space-evenly;
-    padding: 40px;
+    justify-content: space-around;
+    padding: 20px; 
+    .nav-links {
+    
+        a {
+            color: #fff;
+        }
+        .nav-icon {
+        
+    
+            color: #fff;
+         
+    }
+}
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 4;
+    background-color: #fff;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    padding: 20px;
 }
 
 .nav-links {
+    .nav-logo {
+        width: 150px;
+        height: 150px;
+        margin-right: 6rem;
+    }
     a {
-        color: #ffff;
+        color: #333;
+        &:hover {
+            color: #d9aab7;
+            transition: 0.3s ease;
+        }
     }
     .nav-icon {
         padding-top: 5px;
-        margin-left: auto;
+        margin-left: 5rem;
 
-        color: #ffff;
+        color: #333;
         i {
             padding: 5px;
         }
@@ -110,15 +146,13 @@ li {
     display: flex;
     gap: 1em;
     font-size: 18px;
+
+  
     li {
         padding: 5px 14px;
     }
 
-    li:hover {
-        border-radius: 5px;
-        background-color: #e2d2b3;
-        transition: 0.3s ease;
-    }
+   
 }
 
 /* RESPONSIVE NAVBAR MENU STARTS */
@@ -222,8 +256,7 @@ input[type='checkbox'] {
 
 .box-image {
     width: 100%;
-    height: 360px;
-    height: 100%;
+    height: 300px;
     object-fit: cover;
     object-position: 50% 20%;
     border-radius: 1rem;
@@ -287,14 +320,90 @@ input[type='checkbox'] {
         margin-top: 2rem;
     }
 
-    .buttontest{
+    .buttontest {
         opacity: 0;
-        z-index:  100;
+        z-index: 100;
     }
 
-    .test:hover .buttontest{
-        opacity:1;
-      }
+    .test:hover .buttontest {
+        opacity: 1;
+    }
+
+    input[type='checkbox'] {
+        display: none;
+    }
+    input[type='checkbox']:checked ~ .modal,
+    input[type='checkbox']:checked ~ .modal-background {
+        display: block;
+    }
+    .modal-background {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        z-index: 9998;
+    }
+    .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        display: none;
+        width: 300px;
+        height: 300px;
+        background-color: #fff;
+        box-sizing: border-box;
+        z-index: 9999;
+    }
+    .modal > p {
+        padding: 15px;
+        margin: 0;
+    }
+    .modal-header {
+        background-color: #f9f9f9;
+        border-bottom: 1px solid #dddddd;
+        box-sizing: border-box;
+        height: 50px;
+    }
+    .modal-header h3 {
+        margin: 0;
+        box-sizing: border-box;
+        padding-left: 15px;
+        line-height: 50px;
+        color: #4d4d4d;
+        font-size: 16px;
+        display: inline-block;
+    }
+    .modal-header label {
+        box-sizing: border-box;
+        border-left: 1px solid #dddddd;
+        float: right;
+        line-height: 50px;
+        padding: 0 15px 0 15px;
+        cursor: pointer;
+    }
+    .modal-header label:hover img {
+        opacity: 0.6;
+    }
+    /* below is optional, it is just an example for the blue button */
+    .example-label {
+        box-sizing: border-box;
+        display: inline-block;
+        padding: 10px;
+        background-color: #375d91;
+        color: #f9f9f9;
+        font-size: 12px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .example-label:hover {
+        background-color: #3c669f;
+    }
 
     .gallery__item--1 {
         grid-column: 1 / 7;
@@ -362,6 +471,14 @@ input[type='checkbox'] {
         cursor: pointer;
         margin-top: 2rem;
     }
+    .buttontest {
+        opacity: 0;
+        z-index: 100;
+    }
+
+    .test:hover .buttontest {
+        opacity: 1;
+    }
     .gallery__item {
         position: relative;
         &:hover {
@@ -425,6 +542,14 @@ input[type='checkbox'] {
         margin: 4px 2px;
         cursor: pointer;
         margin-top: 2rem;
+    }
+    .buttontest {
+        opacity: 0;
+        z-index: 100;
+    }
+
+    .test:hover .buttontest {
+        opacity: 1;
     }
     .gallery__item {
         position: relative;
@@ -868,6 +993,7 @@ ul {
     display: flex;
     align-items: center;
     background-color: #e2d2b3;
+    z-index: 10;
 }
 .footer-container {
     max-width: 80%;
@@ -928,11 +1054,12 @@ svg {
     top: 5%;
     left: 50%;
     transform: translate(-50%);
+    margin-top: 5.5rem;
 }
 
 .progress-line {
     position: absolute;
-    top: 4.5%;
+    top: 9%;
     left: 50%;
     transform: translate(-50%);
     height: 2px;
@@ -964,21 +1091,20 @@ svg {
     color: #5f6368;
 }
 
-.first-box {
+.first-box, .second-box {
     height: 500px;
     width: 500px;
+    padding-left: 3rem;
+    padding-top: 3rem;
     background-color: none;
     display: inline-block;
     cursor: pointer;
+    &:hover{
+        background-color: #e2d2b3;
+    }
 }
 
-.second-box {
-    height: 500px;
-    width: 500px;
-    background-color: none;
-    display: inline-block;
-    cursor: pointer;
-}
+
 
 @media screen and (max-width: 1280px) {
     .first-box {
@@ -1020,12 +1146,17 @@ svg {
     margin: 0 auto;
     padding-top: 5rem;
     margin-left: 20rem;
-    .add {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+
+
+    .buttontest {
+        opacity: 0;
+        z-index: 100;
     }
+
+    .test:hover .buttontest {
+        opacity: 1;
+    }
+
     div {
         width: 150px;
         margin: 0 1.5rem 1.5rem 0;
@@ -1053,6 +1184,7 @@ svg {
                 background-color: rgba(128, 128, 128, 0.8);
             }
         }
+    
     }
 
     .grid-item::after {
@@ -1290,12 +1422,12 @@ $font-bold: 'HelveticaNeue-Medium', 'Helvetica Neue Medium';
     padding: 10px 25px;
     background-color: #ffffff;
     color: #333;
-    font-size: 25px;
+    font-size: 15px;
     border: 1px solid #333;
 }
 
 .checkout:hover {
-    background-color: #494;
+    background-color: #d8c8a6;
 }
 
 /* Make adjustments for tablet */
@@ -1380,129 +1512,119 @@ $font-bold: 'HelveticaNeue-Medium', 'Helvetica Neue Medium';
     }
 }
 
-
-
-
-
-
-
-img { border: 0; max-width: 100%; }
-
-
-
+img {
+    border: 0;
+    max-width: 100%;
+}
 
 /* page structure */
 #w {
-  display: flex;
-  justify-content: center;
-  width: 1200px;
-  margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
 }
 
-
 #page {
-  display: block;
-  background-color: none;
-  padding: 15px 0;
+    display: block;
+    background-color: none;
+    padding: 15px 0;
 }
 
 #cart {
-  display: block;
-  margin: 0;
-  width: 100%;
-  font-size: 1.2em;
-  color: #444;
+    display: block;
+    margin: 0;
+    width: 100%;
+    font-size: 1.2em;
+    color: #444;
 }
 #cart thead th {
-  padding: 8px 0;
-  font-weight: bold;
+    padding: 8px 0;
+    font-weight: bold;
 }
 
 #cart thead th.first {
-  width: 175px;
+    width: 175px;
 }
 #cart thead th.second {
-  width: 45px;
+    width: 45px;
 }
 #cart thead th.third {
-  width: 230px;
+    width: 230px;
 }
 #cart thead th.fourth {
-  width: 130px;
+    width: 130px;
 }
 #cart thead th.fifth {
-  width: 20px;
+    width: 20px;
 }
 
 #cart tbody td {
-  text-align: center;
-  margin-top: 4px;
+    text-align: center;
+    margin-top: 4px;
 }
 
 tr.productitm {
-  height: 65px;
-  line-height: 65px;
-  border-bottom: 1px solid #d7dbe0;
+    height: 65px;
+    line-height: 65px;
+    border-bottom: 1px solid #d7dbe0;
 }
 
-
 #cart tbody td img.thumb {
-  vertical-align: bottom;
-  border: 1px solid #ddd;
-  margin-bottom: 4px;
+    vertical-align: bottom;
+    border: 1px solid #ddd;
+    margin-bottom: 4px;
 }
 
 .qtyinput {
-  width: 33px;
-  height: 22px;
-  border: 1px solid #a3b8d3;
-  background: #dae4eb;
-  color: #616161;
-  text-align: center;
+    width: 33px;
+    height: 22px;
+    border: 1px solid #a3b8d3;
+    background: #dae4eb;
+    color: #616161;
+    text-align: center;
 }
 
-tr.totalprice, tr.extracosts {
-  height: 35px;
-  line-height: 35px;
+tr.totalprice,
+tr.extracosts {
+    height: 35px;
+    line-height: 35px;
 }
 tr.extracosts {
-  background: #e4edf4;
+    background: #e4edf4;
 }
 
 .remove {
-  cursor: pointer;
-  position: relative;
-  right: 12px;
-  top: 5px;
+    cursor: pointer;
+    position: relative;
+    right: 12px;
+    top: 5px;
 }
-
 
 .light {
-  color: #888b8d;
-  text-shadow: 1px 1px 0 rgba(255,255,255,0.45);
-  font-size: 1.1em;
-  font-weight: normal;
+    color: #888b8d;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.45);
+    font-size: 1.1em;
+    font-weight: normal;
 }
 .thick {
-  color: #272727;
-  font-size: 1.7em;
-  font-weight: bold;
+    color: #272727;
+    font-size: 1.7em;
+    font-weight: bold;
 }
-
 
 /** submit btn **/
 tr.checkoutrow {
-  background: #cfdae8;
-  border-top: 1px solid #abc0db;
-  border-bottom: 1px solid #abc0db;
+    background: #cfdae8;
+    border-top: 1px solid #abc0db;
+    border-bottom: 1px solid #abc0db;
 }
 td.checkout {
-  padding: 12px 0;
-  padding-top: 20px;
-  width: 100%;
-  text-align: right;
+    padding: 12px 0;
+    padding-top: 20px;
+    width: 100%;
+    text-align: right;
 }
-
 
 /*PROFILE*/
 
@@ -1563,6 +1685,7 @@ td.checkout {
 
     .checkout {
         float: left;
+
     }
 
     .fill {
@@ -1699,123 +1822,7 @@ button {
     color: $white;
 }
 
-/*SIDENAV*/
 
-.app {
-    height: auto;
-}
-/* -------------
-Sidebar
----------------*/
-.sidebar {
-    position: absolute;
-    //width: 33.3333%;
-    width: 17em;
-    height: 100vh;
-    top: 27.3%;
-    overflow: hidden;
-    background-color: #ede6d1;
-    -webkit-transform: translateZ(0);
-    visibility: visible;
-    -webkit-backface-visibility: hidden;
-
-    header {
-        background-color: #ede6d1;
-        width: 100%;
-        display: block;
-        padding: 0.75em 1em;
-    }
-}
-
-.sidebar-nav {
-    position: fixed;
-    //width: 13em;
-    background-color: #ede6d1;
-    height: 100%;
-    font-weight: 400;
-    font-size: 1.2em;
-    overflow: auto;
-    padding-bottom: 6em;
-    z-index: 9;
-    overflow: hidden;
-    -webkit-overflow-scrolling: touch;
-
-    label {
-        position: absolute;
-        clip: rect(1px, 1px, 1px, 1px);
-        padding: 0;
-        border: 0;
-        height: 1px;
-        width: 1px;
-        overflow: hidden;
-    }
-
-    ul {
-        list-style: none;
-        display: block;
-        padding: 0;
-        margin: 0;
-
-        li {
-            margin-left: 0;
-            padding-left: 0;
-            display: inline-block;
-            width: 100%;
-
-            a {
-                color: rgba(0, 0, 0, 0.9);
-                font-size: 0.75em;
-                padding: 1.05em 1em;
-                position: relative;
-                display: block;
-
-                &:hover {
-                    background-color: rgba(0, 0, 0, 0.9);
-                }
-            }
-
-            i {
-                font-size: 1.8em;
-                padding-right: 0.5em;
-                width: 9em;
-                display: inline;
-                vertical-align: middle;
-            }
-        }
-    }
-
-    & > ul > li > a:after {
-        content: '\f125';
-        font-family: ionicons;
-        font-size: 0.5em;
-        width: 10px;
-        color: #000000;
-        position: absolute;
-        right: 0.75em;
-        top: 45%;
-    }
-
-    & .nav-flyout {
-        position: absolute;
-        background-color: #080d11;
-        z-index: 9;
-        left: 2.5em;
-        top: 0;
-        height: 100vh;
-        transform: (translateX(100%));
-
-        a:hover {
-            background-color: rgba(255, 255, 255, 0.05);
-        }
-    }
-
-    & ul > li:hover {
-        .nav-flyout {
-            transform: (translateX(0));
-            transform: (all 0.5s ease);
-        }
-    }
-}
 
 /*SHOP NOW*/
 
@@ -1828,6 +1835,7 @@ Sidebar
     margin: 0 auto;
     background-color: #ffffff;
     text-align: left;
+    
 
     img {
         max-width: 90%;
@@ -1842,8 +1850,15 @@ Sidebar
 
     .form-group {
         margin-bottom: 25px;
+        flex-direction: column;
+
     }
 
+   
+
+    label{
+        font-size: 18px;
+    }
     input[type='text'] {
         width: 100%;
         padding-top: 15px;
@@ -1852,7 +1867,15 @@ Sidebar
         padding-left: 20px;
         border: 1px solid #ccc;
     }
-
+    .quantity {
+        width: 30%;
+        height: 40px;
+        border: 1px solid #ccc;
+        background: #fff;
+        color: #616161;
+        text-align: center;
+    }
+    
     #input3 {
         height: 180px;
         width: 100%; /* Adjust the height as needed */
@@ -1863,6 +1886,8 @@ Sidebar
         background-color: #ffffff;
         color: rgb(0, 0, 0);
         border: 1px solid #ccc;
+        width: 100%;
+        margin-bottom: 2rem;
         cursor: pointer;
     }
 

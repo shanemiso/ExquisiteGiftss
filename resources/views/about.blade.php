@@ -13,7 +13,7 @@
           <h2>ABOUT US</h2>
         </div>
       </div>
-      <nav class="navbar">
+      <nav class="navbar-transparent">
         <!-- NAVIGATION MENU -->
         <ul class="nav-links">
           <input type="checkbox" id="checkbox_toggle" />
@@ -21,13 +21,16 @@
 
           <!-- NAVIGATION MENUS -->
           <div class="menu">
+          <div class="nav-logo">
+              <a href="/"><img src="{{ asset('image/2-white.png') }}"/></a>
+            </div>
             <li><a href="/coorporate">COORPORATE GIFTS</a></li>
             <li><a href="/about">ABOUT</a></li>
-            <li><a href="/marketplace">SHOP</a></li>
+            <li><a href="/shopnow">SHOP</a></li>
             <li><a href="/buildbox1">BUILD A BOX</a></li>
             <li><a href="/readytoship">READY TO SHIP</a></li>
             <div class="nav-icon">
-              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <a href="/marketplace"><i class="fa-regular fa-heart"></i></a>
               <a href="/profile"><i class="fa-regular fa-user"></i></a>
               <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
               <a href="/cart"><i class="fa-solid fa-cart-shopping"></i></a>
