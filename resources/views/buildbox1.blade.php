@@ -5,7 +5,29 @@
 @section('content')
 
     <div class="main">
-      <div class="content">
+    <nav class="navbar">
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+            <li><a href="/coorporate">COORPORATE GIFTS</a></li>
+            <li><a href="/about">ABOUT</a></li>
+            <li><a href="/marketplace">SHOP</a></li>
+            <li><a href="/buildbox1">BUILD A BOX</a></li>
+            <li><a href="/readytoship">READY TO SHIP</a></li>
+            <div class="nav-icon">
+              <a href="#"><i class="fa-regular fa-heart"></i></a>
+              <a href="/profile"><i class="fa-regular fa-user"></i></a>
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              <a href="/cart"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+          </div>
+        </ul>
+      </nav>
+      <div class="progress-content">
         <div class="progress-line"></div>
 
         <div class="progress-container">
@@ -41,6 +63,22 @@
         <img src="{{ asset('image/box2.png') }}" />
       </div>
       </div>
+      <div class="email-container">
+      <div class="email-content">
+        <p class="left-align">sign up for updates:</p>
+        <input
+          type="text"
+          class="form-control custom-input"
+          name="email"
+          id="email"
+          placeholder="email address"
+        />
+        <input type="submit" value="SUBMIT" class="submit-btn" />
+        <span class="submitting"></span>
+        <p class="align">by signing up you agree to our terms.</p>
+      </div>
+</div>
+          
     </div>
 
    @endsection

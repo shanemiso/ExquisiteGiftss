@@ -270,11 +270,21 @@ input[type='checkbox'] {
         transition: background-color 0.3s ease;
         z-index: 1;
     }
-    .centered {
+    .shop-now {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        background-color: #ffffff;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.35);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-top: 2rem;
     }
 
     .gallery__item--1 {
@@ -327,6 +337,22 @@ input[type='checkbox'] {
     grid-gap: 1rem;
     padding-top: 2rem;
 
+    .shop-now {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #ffffff;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.35);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-top: 2rem;
+    }
     .gallery__item {
         position: relative;
         &:hover {
@@ -375,7 +401,22 @@ input[type='checkbox'] {
     grid-template-rows: repeat(6, 5vw);
     grid-gap: 1rem;
     padding-top: 2rem;
-
+    .shop-now {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #ffffff;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.35);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-top: 2rem;
+    }
     .gallery__item {
         position: relative;
         &:hover {
@@ -601,7 +642,7 @@ input[type='checkbox'] {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     margin: 4px 2px;
     cursor: pointer;
     margin-top: 2rem;
@@ -866,6 +907,13 @@ svg {
 
 /*TRACKING*/
 
+.progress-content {
+    width: min(100%, 100%);
+    padding: 5rem;
+    text-align: center;
+    background-color: #ede6d1;
+}
+
 .progress-container {
     position: absolute;
     top: 5%;
@@ -1101,7 +1149,6 @@ svg {
 
 $font-bold: 'HelveticaNeue-Medium', 'Helvetica Neue Medium';
 
-/* Global "table" column settings */
 .product-image {
     float: left;
     width: 20%;
@@ -1805,8 +1852,68 @@ Sidebar
         color: #5a5a5a;
     }
     h5 {
-        font-size: clamp(20px, 2.25vw, 40px);
+        font-size: clamp(15px, 1.75vw, 20px);
         font-weight: 500;
         color: #5a5a5a;
+    }
+}
+
+/*COORPORATE*/
+.coororate-banner {
+    position: relative;
+    padding: 5rem;
+    width: 100%;
+    background-color: #907b54;
+    margin-bottom: clamp(80px, 10vw, 400px);
+    text-align: center;
+    .coorporate-title {
+        font-size: clamp(2rem, 3.5vw, 3.75rem);
+        font-weight: 600;
+        color: #fff;
+        padding-bottom: 4rem;
+    }
+    h5 {
+        font-size: clamp(40px, 2.65vw, 2rem);
+        font-weight: 600;
+        color: #fff;
+    }
+    p {
+        color: #fff;
+        font-size: clamp(12px, 2.5vw, 25px);
+        font-weight: 400;
+        font-family: Raleway;
+        padding-top: 20px;
+    }
+    @media (max-width: 480px) {
+        margin-bottom: 380px;
+    }
+    @media (max-width: 400px) {
+        margin-bottom: 330px;
+    }
+
+    .container-lg {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: clamp(30px, 6vw, 55px);
+
+        .card1 {
+            display: flex;
+            padding-bottom: clamp(20px, 3vw, 40px);
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: left;
+            width: 25%;
+            @media (max-width: 992px) {
+                width: 100%;
+            }
+            @media (max-width: 768px) {
+                width: 100%;
+            }
+            @media (max-width: 480px) {
+                width: 100%;
+            }
+        }
     }
 }

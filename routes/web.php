@@ -38,3 +38,7 @@ Route::get('/buildbox3_2', function () {
 Route::get('/about', function () {
     return view('about');
 });
+
+Route::get('/coorporate', function () {
+    return view('coorporate');
+});
