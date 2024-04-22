@@ -53,7 +53,7 @@
           <div class="box">
             <img
               class="box-image"
-              src="assets/image/card1.png"
+              src="{{ asset('image/card1.png') }}"
               alt="Card1"
             />
             <div class="title-flex">
@@ -63,7 +63,7 @@
           <div class="box">
             <img
               class="box-image"
-              src="assets/image/card2.png"
+              src="{{ asset('image/card2.png') }}"
               alt="Card2"
             />
             <div class="title-flex">
@@ -73,7 +73,7 @@
           <div class="box">
             <img
               class="box-image"
-              src="assets/image/card3.png"
+              src="{{ asset('image/card3.png') }}"
               alt="Card3"
             />
             <div class="title-flex">
@@ -83,7 +83,7 @@
           <div class="box">
             <img
               class="box-image"
-              src="assets/image/card4.png"
+              src="{{ asset('image/card4.png') }}"
               alt="Card4"
             />
             <div class="title-flex">
@@ -97,7 +97,7 @@
         <div class="gallery">
           <div class="gallery__item gallery__item--1">
             <img
-              src="assets/image/grid-img1.png"
+              src="{{ asset('image/grid-img1.png') }}"
               alt="Gallery image 1"
               class="gallery__img"
             />
@@ -106,49 +106,56 @@
           </div>
           <div class="gallery__item gallery__item--2">
             <img
-              src="assets/image/grid-img2.png"
+              src="{{ asset('image/grid-img2.png') }}"
+
               alt="Gallery image 2"
               class="gallery__img"
             />
           </div>
           <div class="gallery__item gallery__item--3">
             <img
-              src="assets/image/grid-img3.png"
+              src="{{ asset('image/grid-img3.png') }}"
+
               alt="Gallery image 2"
               class="gallery__img"
             />
           </div>
           <div class="gallery__item gallery__item--4">
             <img
-              src="assets/image/grid-img4.png"
+              src="{{ asset('image/grid-img4.png') }}"
+
               alt="Gallery image 2"
               class="gallery__img"
             />
           </div>
           <div class="gallery__item gallery__item--5">
             <img
-              src="assets/image/grid-img5.png"
+              src="{{ asset('image/grid-img5.png') }}"
+
               alt="Gallery image 2"
               class="gallery__img"
             />
           </div>
           <div class="gallery__item gallery__item--6">
             <img
-              src="assets/image/grid-img6.png"
+              src="{{ asset('image/grid-img6.png') }}"
+
               alt="Gallery image 2"
               class="gallery__img"
             />
           </div>
           <div class="gallery__item gallery__item--7">
             <img
-              src="assets/image/grid-img7.png"
+              src="{{ asset('image/grid-img7.png') }}"
+
               alt="Gallery image 2"
               class="gallery__img"
             />
           </div>
           <div class="gallery__item gallery__item--8">
             <img
-              src="assets/image/grid-img8.png"
+              src="{{ asset('image/grid-img8.png') }}"
+
               alt="Gallery image 2"
               class="gallery__img"
             />
@@ -157,35 +164,39 @@
         <div class="gallery-2">
           <div class="gallery__item gallery__item--1">
             <img
-              src="assets/image/grid-img1.png"
+              src="{{ asset('image/grid-img1.png') }}"
+
               alt="Gallery image 2"
               class="gallery__img"
             />
           </div>
           <div class="gallery__item gallery__item--2">
             <img
-              src="assets/image/grid-img3.png"
+              src="{{ asset('image/grid-img3.png') }}"
+
               alt="Gallery image 2"
               class="gallery__img"
             />
           </div>
           <div class="gallery__item gallery__item--3">
             <img
-              src="assets/image/grid-img4.png"
+              src="{{ asset('image/grid-img4.png') }}"
+
               alt="Gallery image 2"
               class="gallery__img"
             />
           </div>
           <div class="gallery__item gallery__item--4">
             <img
-              src="assets/image/grid-img7.png"
+            src="{{ asset('image/grid-img7.png') }}"
               alt="Gallery image 2"
               class="gallery__img"
             />
           </div>
           <div class="gallery__item gallery__item--5">
             <img
-              src="assets/image/grid-img5.png"
+              src="{{ asset('image/grid-img5.png') }}"
+
               alt="Gallery image 2"
               class="gallery__img"
             />
@@ -194,56 +205,59 @@
         <div class="gallery-3">
           <div class="gallery__item gallery__item--1">
             <img
-              src="assets/image/grid-img1.png"
+              src="{{ asset('image/grid-img1.png') }}"
+
               alt="Gallery image 1"
               class="gallery__img"
             />
           </div>
           <div class="gallery__item gallery__item--2">
             <img
-              src="assets/image/grid-img2.png"
+              src="{{ asset('image/grid-img2.png') }}"
+
               alt="Gallery image 2"
               class="gallery__img"
             />
           </div>
           <div class="gallery__item gallery__item--3">
             <img
-              src="assets/image/grid-img3.png"
+              src="{{ asset('image/grid-img3.png') }}"
+
               alt="Gallery image 2"
               class="gallery__img"
             />
           </div>
           <div class="gallery__item gallery__item--4">
             <img
-              src="assets/image/grid-img4.png"
+            src="{{ asset('image/grid-img4.png') }}"
               alt="Gallery image 2"
               class="gallery__img"
             />
           </div>
           <div class="gallery__item gallery__item--5">
             <img
-              src="assets/image/grid-img5.png"
+            src="{{ asset('image/grid-img5.png') }}"
               alt="Gallery image 2"
               class="gallery__img"
             />
           </div>
           <div class="gallery__item gallery__item--6">
             <img
-              src="assets/image/grid-img6.png"
+            src="{{ asset('image/grid-img6.png') }}"
               alt="Gallery image 2"
               class="gallery__img"
             />
           </div>
           <div class="gallery__item gallery__item--7">
             <img
-              src="assets/image/grid-img7.png"
+            src="{{ asset('image/grid-img7.png') }}"
               alt="Gallery image 2"
               class="gallery__img"
             />
           </div>
           <div class="gallery__item gallery__item--8">
             <img
-              src="assets/image/grid-img8.png"
+            src="{{ asset('image/grid-img8.png') }}"
               alt="Gallery image 2"
               class="gallery__img"
             />
@@ -256,13 +270,12 @@
         <a><i class="fas fa-times close-btn"></i></a>
 
         <div class="images">
-          <img src="assets/image/card1.png" />
+          <img src="{{ asset('image/card1.png') }}"/>
         </div>
         <div class="product">
           <div class="images">
             <img
-              src="assets/image/card1.png"
-              style="width: 90px; height: 90px"
+            src="{{ asset('image/card1.png') }}"              style="width: 90px; height: 90px"
             />
           </div>
           <h2>Rs.4000</h2>
@@ -273,7 +286,7 @@
         </div>
       </div>
       <div class="holiday-banner">
-        <img src="assets/image/holiday-banner.png" alt="Banner Image" />
+        <img src="{{ asset('image/holiday-banner.png') }}"alt="Banner Image" />
         <div class="overlay-text">
           <h2>HOLIDAY SPECIAL</h2>
           <div class="shop-btn"><a href="marketplace.html">SHOP NOW</a></div>
@@ -286,7 +299,7 @@
             <li class="card">
               <div class="img">
                 <img
-                  src="assets/image/grid-img3.png"
+                src="{{ asset('image/grid-img3.png') }}"
                   alt=""
                   draggable="false"
                 />
@@ -295,7 +308,7 @@
             <li class="card">
               <div class="img">
                 <img
-                  src="assets/image/grid-img4.png"
+                src="{{ asset('image/grid-img4.png') }}"
                   alt=""
                   draggable="false"
                 />
@@ -304,7 +317,7 @@
             <li class="card">
               <div class="img">
                 <img
-                  src="assets/image/grid-img6.png"
+                src="{{ asset('image/grid-img6.png') }}"
                   alt=""
                   draggable="false"
                 />
@@ -313,7 +326,7 @@
             <li class="card">
               <div class="img">
                 <img
-                  src="assets/image/grid-img3.png"
+                src="{{ asset('image/grid-img3.png') }}"
                   alt=""
                   draggable="false"
                 />
@@ -322,7 +335,7 @@
             <li class="card">
               <div class="img">
                 <img
-                  src="assets/image/grid-img4.png"
+                src="{{ asset('image/grid-img7.png') }}"
                   alt=""
                   draggable="false"
                 />
@@ -331,7 +344,7 @@
             <li class="card">
               <div class="img">
                 <img
-                  src="assets/image/grid-img6.png"
+                src="{{ asset('image/grid-img8.png') }}"
                   alt=""
                   draggable="false"
                 />
@@ -344,7 +357,8 @@
         <div class="shop-btn"><a href="marketplace.html">SHOP NOW</a></div>
       </div>
       <div class="marketplace-banner">
-        <img src="assets/image/marketplace-banner.png" alt="Banner Image" />
+        <img                 src="{{ asset('image/marketplace-banner.png') }}"
+ alt="Banner Image" />
         <div class="overlay-text">
           <h2>MARKETPLACE</h2>
           <div class="shop-btn"><a href="marketplace.html">SHOP NOW</a></div>
@@ -352,7 +366,8 @@
       </div>
       <div class="card-container">
         <div class="image">
-          <img src="assets/image/single-card.png" />
+          <img                 src="{{ asset('image/single-card.png') }}"
+ />
         </div>
         <div class="text">
           <h2>COORPORATE</h2>
@@ -382,15 +397,16 @@
           </p>
           <div class="overlay__item">
             <img
-              src="assets/image/overlay-img.png"
+              src="{{ asset('image/overlay-img.png') }}"
+
               alt="about image"
               class="overlay__img"
             />
           </div>
         </div>
       </div>
-
-      <div class="content">
+<div class="email-container">
+      <div class="email-content">
         <p class="left-align">sign up for updates:</p>
         <input
           type="text"
@@ -403,6 +419,7 @@
         <span class="submitting"></span>
         <p class="align">by signing up you agree to our terms.</p>
       </div>
+</div>
 
       <footer class="footer">
         <div class="footer-container">

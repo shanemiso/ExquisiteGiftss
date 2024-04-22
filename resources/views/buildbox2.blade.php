@@ -25,7 +25,7 @@
         <div class="layout">
           <div class="layout_item w-60">
             <img
-              src="assets/image/box1.png"
+            src="{{ asset('image/box1.png') }}" 
               style="width: 150px; height: 150px"
             />
           </div>

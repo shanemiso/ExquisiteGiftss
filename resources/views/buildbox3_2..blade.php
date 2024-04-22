@@ -22,7 +22,9 @@
       </div>
       <div class="blog-card">
         <div class="meta">
-          <img src="assets/image/choose4.png" class="photo" />
+          <img 
+          src="{{ asset('image/choose4.png') }}"
+class="photo" />
         </div>
         <div class="description">
           <form>

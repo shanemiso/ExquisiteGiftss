@@ -57,7 +57,8 @@
 
           <div class="product">
             <div class="product-image">
-              <img src="assets/image/choose3.png" />
+              <img           src="{{ asset('image/choose3.png') }}"
+/>
             </div>
             <div class="product-removal">
               <button class="remove-product">Remove</button>

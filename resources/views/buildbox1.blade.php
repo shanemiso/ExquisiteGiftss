@@ -35,9 +35,11 @@
       </div>
       <div class="card-container">
         <div class="first-box">
-          <img src="assets/image/box1.png" />
+          <img src="{{ asset('image/box1.png') }}" />
         </div>
-        <div class="second-box"><img src="assets/image/box2.png" /></div>
+        <div class="second-box">
+        <img src="{{ asset('image/box2.png') }}" />
+      </div>
       </div>
     </div>
 

@@ -16,7 +16,7 @@
         <div class="layout">
           <div class="layout_item w-50">
             <div class="newsletter">
-              <img src="assets/image/default-profile.jpg" />
+              <img src="{{ asset('image/default-profile.jpg') }}"  />
             </div>
           </div>
 
