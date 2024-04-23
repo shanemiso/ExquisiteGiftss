@@ -119,15 +119,7 @@
             <button class="shop-now buttontest" for="model">Shop now</button>
 
           </div>
-          <div class="modal">
-    <div class="modal-header">
-        <h3>Modal Title</h3>
-        <label for="modal">
-        <i class="fa-regular fa-heart" alt=""></i>
-        </label>
-    </div>
-    <p>Content for the modal</p>
-</div>
+        
           <div class="gallery__item test gallery__item--3">
             <img
               src="{{ asset('image/grid-img3.png') }}"
@@ -317,7 +309,7 @@
 
           </div>
         </div>
-        <div class="icon-xl"><i class="fa-solid fa-plus"></i></div>
+        <button class="icon-xl"><i class="fa-solid fa-plus"></i></button>
       </div>
 
       <div class="popup-container">
@@ -509,6 +501,40 @@
         });
       });
     });
+
+    document.addEventListener("DOMContentLoaded", function() {
+  // Select the plus icon
+  const plusIcon = document.querySelector(".icon-xl");
+  
+  // Select all galleries
+  const gallery1 = document.querySelector(".gallery");
+  const gallery2 = document.querySelector(".gallery-2");
+  const gallery3 = document.querySelector(".gallery-3");
+
+  // Hide galleries 2 and 3 initially
+  gallery2.style.display = "none";
+  gallery3.style.display = "none";
+
+  // Add click event listener to the plus icon
+  plusIcon.addEventListener("click", function() {
+    // Toggle visibility of gallery 2
+    if (gallery2.style.display === "none") {
+      gallery2.style.display = "grid";
+    } else {
+      // Toggle visibility of gallery 3
+      if (gallery3.style.display === "none") {
+        gallery3.style.display = "block";
+        // Change plus icon to minus icon or whatever indication you prefer
+        plusIcon.innerHTML = '<i class="fa-solid fa-minus"></i>';
+      } else {
+        gallery3.style.display = "none";
+        // Change back to plus icon
+        plusIcon.innerHTML = '<i class="fa-solid fa-plus"></i>';
+      }
+    }
+  });
+});
+
 
 
     

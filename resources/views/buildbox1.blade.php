@@ -61,13 +61,18 @@
         <h1>CHOOSE YOUR BOX COLOR</h1>
       </div>
       <div class="card-container">
-        <div class="first-box">
-          <img src="{{ asset('image/box1.png') }}" />
-        </div>
-        <div class="second-box">
-        <img src="{{ asset('image/box2.png') }}" />
-        </div>
+      <div class="first-box">
+        <a href="/buildbox2?image={{ asset('image/box1.png') }}">
+            <img src="{{ asset('image/box1.png') }}" />
+        </a>
       </div>
+      <div class="second-box">
+        <a href="/buildbox2?image={{ asset('image/box2.png') }}">
+            <img src="{{ asset('image/box2.png') }}" />
+        </a>
+      </div>
+    </div>
+
       <div class="email-container">
       <div class="email-content">
         <p class="left-align">sign up for updates:</p>

@@ -77,7 +77,7 @@
         <div>
           <img
             class="grid-item grid-item-1"
-            src="assets/image/grid-img1.png"
+            src="{{ asset('image/grid-img1.png') }}"
             alt=""
           />
           <p>Mother's Day</p>
@@ -85,7 +85,7 @@
         <div>
           <img
             class="grid-item grid-item-2"
-            src="assets/image/grid-img2.png"
+            src="{{ asset('image/grid-img2.png') }}"
             alt=""
           />
           <p>Father's Day</p>
@@ -93,7 +93,7 @@
         <div>
           <img
             class="grid-item grid-item-3"
-            src="assets/image/grid-img3.png"
+            src="{{ asset('image/grid-img3.png') }}"
             alt=""
           />
           <p>Mother's Day</p>
@@ -101,7 +101,7 @@
         <div>
           <img
             class="grid-item grid-item-4"
-            src="assets/image/grid-img4.png"
+            src="{{ asset('image/grid-img4.png') }}"
             alt=""
           />
           <p>Mother's Day</p>
@@ -109,7 +109,7 @@
         <div>
           <img
             class="grid-item grid-item-5"
-            src="assets/image/grid-img5.png"
+            src="{{ asset('image/grid-img5.png') }}"
             alt=""
           />
           <p>Mother's Day</p>
@@ -117,7 +117,7 @@
         <div>
           <img
             class="grid-item grid-item-6"
-            src="assets/image/grid-img6.png"
+            src="{{ asset('image/grid-img6.png') }}"
             alt=""
           />
           <p>Mother's Day</p>
@@ -125,7 +125,7 @@
         <div>
           <img
             class="grid-item grid-item-7"
-            src="assets/image/grid-img7.png"
+            src="{{ asset('image/grid-img7.png') }}"
             alt=""
           />
           <p>Mother's Day</p>
@@ -133,7 +133,7 @@
         <div>
           <img
             class="grid-item grid-item-8"
-            src="assets/image/grid-img8.png"
+            src="{{ asset('image/grid-img8.png') }}"
             alt=""
           />
           <p>Mother's Day</p>
@@ -141,7 +141,7 @@
         <div>
           <img
             class="grid-item grid-item-9"
-            src="assets/image/grid-img1.png"
+            src="{{ asset('image/grid-img1.png') }}"
             alt=""
           />
           <p>Mother's Day</p>
@@ -149,7 +149,7 @@
         <div>
           <img
             class="grid-item grid-item-10"
-            src="assets/image/grid-img2.png"
+            src="{{ asset('image/grid-img2.png') }}"
             alt=""
           />
           <p>Father's Day</p>
@@ -157,7 +157,7 @@
         <div>
           <img
             class="grid-item grid-item-11"
-            src="assets/image/grid-img3.png"
+            src="{{ asset('image/grid-img3.png') }}"
             alt=""
           />
           <p>Mother's Day</p>
@@ -165,7 +165,7 @@
         <div>
           <img
             class="grid-item grid-item-12"
-            src="assets/image/grid-img4.png"
+            src="{{ asset('image/grid-img4.png') }}"
             alt=""
           />
           <p>Mother's Day</p>
@@ -173,7 +173,7 @@
         <div>
           <img
             class="grid-item grid-item-13"
-            src="assets/image/grid-img5.png"
+            src="{{ asset('image/grid-img5.png') }}"
             alt=""
           />
           <p>Mother's Day</p>
@@ -181,7 +181,7 @@
         <div>
           <img
             class="grid-item grid-item-14"
-            src="assets/image/grid-img6.png"
+            src="{{ asset('image/grid-img6.png') }}"
             alt=""
           />
           <p>Mother's Day</p>
@@ -189,7 +189,7 @@
         <div>
           <img
             class="grid-item grid-item-15"
-            src="assets/image/grid-img7.png"
+            src="{{ asset('image/grid-img7.png') }}"
             alt=""
           />
           <p>Mother's Day</p>
@@ -197,7 +197,7 @@
         <div>
           <img
             class="grid-item grid-item-16"
-            src="assets/image/grid-img8.png"
+            src="{{ asset('image/grid-img8.png') }}"
             alt=""
           />
           <p>Mother's Day</p>

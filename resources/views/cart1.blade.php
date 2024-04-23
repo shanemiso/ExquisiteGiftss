@@ -30,47 +30,9 @@
           </div>
         </ul>
       </nav>
-      <div class="content">
-        <h3 style="color: #907b54; float: left">Your cart</h3>
-      </div>
 
-      <!-- <div class="content">
-        <div class="shopping-cart">
-          <div class="column-labels">
-            <label class="product-image">Image</label>
-            <label class="product-price">Price</label>
-            <label class="product-quantity">Quantity</label>
-            <label class="product-line-price">Total</label>
-          </div>
 
-          <div class="product">
-            <div class="product-image">
-              <img src="https://s.cdpn.io/3/dingo-dog-bones.jpg" />
-            </div>
-            <div class="product-removal">
-              <button class="remove-product">Remove</button>
-            </div>
-            <div class="product-details">
-              <div class="product-title">Dingo Dog Bones</div>
-            </div>
-            <div class="product-price">12.99</div>
-            <div class="product-quantity">
-              <input type="number" value="2" min="1" />
-            </div>
-            <div class="product-line-price">25.98</div>
-          </div>
-
-          <div class="totals">
-            <div class="totals-item">
-              <label>Subtotal</label>
-              <div class="totals-value" id="cart-subtotal">71.97</div>
-            </div>
-          </div>
-
-          <button class="checkout">Checkout</button>
-        </div>
-      </div> -->
-      <div class="content">
+      <div class="content" style="padding-top:10rem;">
         <!-- <div class="shopping-cart">
           <div class="column-labels">
             <label class="product-image">CONTINUE</label>
@@ -106,40 +68,41 @@
           <button class="checkout">Checkout</button>
         </div> -->
         <div id="w">
-  
+        <h3 style="color: #907b54; float: left">Your cart</h3>
+
     <div id="page">
       <table id="cart">
         <thead>
           <tr>
             <th class="first">Photo</th>
-            <th class="second">Qty</th>
-            <th class="third">Product</th>
-            <th class="fourth">Line Total</th>
             <th class="fifth">&nbsp;</th>
+            <th class="third">Price</th>
+            <th class="second">Quantity</th>
+            <th class="fourth">Total</th>
           </tr>
         </thead>
         <tbody>
           <tr class="productitm">
             <td><img src="{{ asset('image/choose4.png') }}"  class="thumb"></td>
-            <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
-            <td>Design Bundle Package</td>
-            <td>$79.00</td>
             <td><span class="remove"><i class="fa-regular fa-trash-can"></i></span></td>
+            <td>Rs.2000</td>
+            <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+            <td>Rs.2000</td>
           </tr>
           <tr class="productitm">
             <td><img   src="{{ asset('image/choose4.png') }}"    class="thumb"></td>
-            <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
-            <td>Stuff on my Cat: The Book</td>
-            <td>$8.95</td>
             <td><span class="remove"><i class="fa-regular fa-trash-can"></i></span></td>
+            <td>Rs.2000</td>
+            <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
+            <td>Rs.2000</td>
           </tr>
           
           <!-- tax + subtotal -->
         
           <tr class="totalprice">
-            <td class="light">Total:</td>
+            <td class="thick">Total:</td>
             <td colspan="2">&nbsp;</td>
-            <td colspan="2"><span class="thick">$225.45</span></td>
+            <td colspan="2"><span class="thick">Rs.4000</span></td>
           </tr>
           
           <!-- checkout btn -->

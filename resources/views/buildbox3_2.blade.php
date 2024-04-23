@@ -34,10 +34,22 @@
         <div class="progress-line"></div>
         <div class="progress-container">
           <div class="steps">
-            <div class="step" id="0"></div>
-            <div class="step" id="1"></div>
-            <div class="step" id="2"></div>
-            <div class="step" id="3"></div>
+            <div class="step-container">
+              <div class="step" id="0"></div>
+              <span>Step 1</span>
+            </div>
+            <div class="step-container">
+              <div class="step" id="1"></div>
+              <span>Step 2</span>
+            </div>
+            <div class="step-container">
+              <div class="step" id="2"></div>
+              <span>Step 3</span>
+            </div>
+            <div class="step-container">
+              <div class="step" id="3"></div>
+              <span>Done!</span>
+            </div>
           </div>
         </div>
       </div>
@@ -48,8 +60,8 @@
       <div class="blog-card">
         <div class="meta">
           <img 
-          src="{{ asset('image/choose4.png') }}"
-class="photo" />
+          src="{{ $_GET['image'] }}"
+          class="photo" />
         </div>
         <div class="description">
           <form>
