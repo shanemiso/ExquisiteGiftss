@@ -78,7 +78,7 @@
           </div>
         </div>
       </div>
-      <div class="grid-container">
+      <div class="grid-below">
         <div>
           <img
             class="grid-item grid-item-1"
@@ -145,22 +145,8 @@
           />
           <p>Mother's Day</p>
         </div>
-        <div>
-          <img
-            class="grid-item grid-item-9"
-            src="{{ asset('image/choose3.png') }}"           
-            alt=""
-          />
-          <p>Mother's Day</p>
-        </div>
-        <div>
-          <img
-            class="grid-item grid-item-10"
-            src="{{ asset('image/choose7.png') }}"           
-            alt=""
-          />
-          <p>Father's Day</p>
-        </div>
+       
+    
       </div>
       <div class="email-container">
       <div class="email-content">

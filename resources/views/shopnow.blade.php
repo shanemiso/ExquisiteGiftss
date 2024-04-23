@@ -94,6 +94,7 @@
                 src="{{ asset('image/grid-img8.png') }}"                
                 alt=""
               />
+                <h4 class="box-title">Mothers'day</h4>
             </div>
             <div class="box">
               <img
@@ -101,6 +102,8 @@
                 src="{{ asset('image/grid-img1.png') }}"                
                 alt=""
               />
+              <h4 class="box-title">Mothers'day</h4>
+
             </div>
             <div class="box">
               <img
@@ -108,6 +111,8 @@
                 src="{{ asset('image/grid-img2.png') }}"                
                 alt=""
               />
+              <h4 class="box-title">Mothers'day</h4>
+
             </div>
             <div class="box">
               <img
@@ -115,6 +120,8 @@
                 src="{{ asset('image/grid-img3.png') }}"                
                 alt=""
               />
+              <h4 class="box-title">Mothers'day</h4>
+
             </div>
           </div>
         </div>

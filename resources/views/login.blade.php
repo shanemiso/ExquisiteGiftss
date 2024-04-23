@@ -6,8 +6,8 @@
     <div class="login-wrapper">
       <div class="inner">
         <div class="image-holder">
-          <img src="{{ asset('image/login.png') }}"
- alt="" />
+          <a href="/"><img src="{{ asset('image/login.png') }}"
+          alt="" /></a>
         </div>
         <form action="">
           <h3>LOGIN</h3>

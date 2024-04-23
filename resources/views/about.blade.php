@@ -108,7 +108,7 @@
           <div class="team-box">
             <img
               class="box-image"
-              src="{{ asset('image/card1.png') }}"
+              src="{{ asset('image/founder.png') }}"
               alt="Card1"
             />
             <div class="title-flex">
@@ -120,7 +120,7 @@
           <div class="team-box">
             <img
               class="box-image"
-              src="{{ asset('image/card2.png') }}"
+              src="{{ asset('image/creative-head.png') }}"
               alt="Card2"
             />
             <div class="title-flex">

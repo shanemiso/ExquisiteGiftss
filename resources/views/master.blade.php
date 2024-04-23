@@ -8,7 +8,8 @@
 
     <!-- title -->
     @yield('meta')
-   
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
     <script
       src="https://kit.fontawesome.com/f320c552c0.js"
       crossorigin="anonymous"

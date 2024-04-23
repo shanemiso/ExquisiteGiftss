@@ -8,6 +8,7 @@
     width: 100%;
     position: relative;
     background-color: #ede6d1;
+    font-family: Poppins;
 }
 
 h1 {
@@ -260,7 +261,7 @@ input[type='checkbox'] {
 
 .box-image {
     width: 100%;
-    height: 300px;
+    height: 250px;
     object-fit: cover;
     object-position: 50% 20%;
     border-radius: 1rem;
@@ -274,6 +275,7 @@ input[type='checkbox'] {
 
 .box-title {
     padding-left: 12px;
+    padding-top: 10px ;
 }
 
 /*GRIDS*/
@@ -689,6 +691,7 @@ input[type='checkbox'] {
         .no-transition {
             scroll-behavior: auto;
         }
+     
     }
 }
 
@@ -733,9 +736,13 @@ input[type='checkbox'] {
                 height: 80%;
                 object-fit: cover;
                 border-radius: 1rem;
+          
             }
+           
         }
+      
     }
+
 }
 
 .pagination {
@@ -784,6 +791,10 @@ input[type='checkbox'] {
     margin: 4px 2px;
     cursor: pointer;
     margin-top: 2rem;
+    &:hover{
+        background-color: #d8c8a6;
+
+    }
 }
 
 .holiday-banner {
@@ -869,6 +880,8 @@ input[type='checkbox'] {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Poppins;
+
 }
 .email-content {
     width: 50%;
@@ -898,6 +911,7 @@ input[type='checkbox'] {
     box-sizing: border-box;
     font-size: 16px;
     margin-right: 1rem;
+
 }
 
 .custom-placeholder {
@@ -907,6 +921,7 @@ input[type='checkbox'] {
     pointer-events: none;
     transition: all 0.3s ease;
     color: #aaa;
+
 }
 
 #email:focus + .custom-placeholder,
@@ -918,6 +933,8 @@ input[type='checkbox'] {
     color: #333;
     background-color: #fff;
     padding: 0 5px;
+    font-family: Poppins;
+
 }
 
 .about-us {
@@ -979,6 +996,8 @@ a {
     border-bottom: 1px solid transparent;
     margin-bottom: 0.5rem;
     display: inline-flex;
+    font-family: Poppins;
+
 }
 a:hover {
     border-bottom: 1px solid var(--dark);
@@ -998,6 +1017,8 @@ ul {
     align-items: center;
     background-color: #e2d2b3;
     z-index: 10;
+    font-family: Poppins;
+
 }
 .footer-container {
     max-width: 80%;
@@ -1042,7 +1063,6 @@ svg {
     justify-content: center;
 }
 
-/*LOGIN*/
 
 /*TRACKING*/
 
@@ -1153,14 +1173,57 @@ svg {
     margin-left: 20rem;
 
 
-    .buttontest {
-        opacity: 0;
-        z-index: 100;
+    div {
+        width: 150px;
+        margin: 0 1.5rem 1.5rem 0;
+        display: inline-block;
+        width: 100%;
+        padding: 5px;
+        transition: all 0.25s ease-in-out;
+        &:hover img {
+            filter: grayscale(80%);
+        }
+        img {
+            width: 100%;
+            height: 200px;
+            transition: all 0.25s ease-in-out;
+        }
+        p {
+            margin: 5px 0;
+            padding-top: 5px;
+            text-align: center;
+        }
+    }
+    .grid-item {
+        position: relative;
+        &:hover {
+            &:after {
+                background-color: rgba(128, 128, 128, 0.8);
+            }
+        }
+    
     }
 
-    .test:hover .buttontest {
-        opacity: 1;
+    .grid-item::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(128, 128, 128, 0);
+        transition: background-color 0.3s ease;
+        z-index: 1;
     }
+}
+
+.grid-below {
+    columns: 4 150px;
+    column-gap: 2.5rem;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 5rem;
+
 
     div {
         width: 150px;
@@ -1205,6 +1268,7 @@ svg {
         z-index: 1;
     }
 }
+
 
 /*Build Box Page 3*/
 
@@ -1527,16 +1591,20 @@ $pink: #d9aab7;
 $rose: #ba7e7e;
 $dark: #4e4e4e;
 
-/* center container in the middle */
 
 .popup-container {
-    position: relative;
-    margin: 20px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    // display: none;
     overflow: hidden;
     width: 60%;
-    height: 50%;
+    height: auto;
     background: $white;
     padding-left: 40px;
+    padding-bottom: 55px;
     box-shadow: 5px 5px 15px rgba($rose, 0.5);
     border-radius: 10px;
     img {
@@ -1741,11 +1809,13 @@ $dark: #4e4e4e;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .about-content {
     margin-bottom: 3rem;
     text-align: center;
+    overflow: hidden;
     width: 80%;
     h2 {
         font-size: clamp(2.65rem, 3vw, 5.5rem);

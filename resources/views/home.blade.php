@@ -104,7 +104,7 @@
               alt="Gallery image 1"
               class="gallery__img"
             />
-            <button class="shop-now buttontest" for="model">Shop now</button>
+            <button class="shop-now buttontest" for="model" >Shop now</button>
 
 
 
@@ -116,7 +116,7 @@
               alt="Gallery image 2"
               class="gallery__img"
             />
-            <button class="shop-now buttontest" for="model">Shop now</button>
+            <button class="shop-now buttontest" for="model" >Shop now</button>
 
           </div>
         
@@ -316,12 +316,12 @@
         <a><i class="fas fa-times close-btn"></i></a>
 
         <div class="images">
-          <img src="{{ asset('image/card1.png') }}"/>
+          <img id="popupImage" src="{{ asset('image/card1.png') }}"/>
         </div>
         <div class="product">
           <div class="images">
-            <img
-            src="{{ asset('image/card1.png') }}"              style="width: 90px; height: 90px"
+            <img id="secondPopupImage"
+            src="{{ asset('image/card1.png') }}"  style="width: 90px; height: 90px"
             />
           </div>
           <h2>Rs.4000</h2>
@@ -400,7 +400,7 @@
         </div>
 
         <div class="pagination"></div>
-        <div class="shop-btn"><a href="/marketplace">SHOP NOW</a></div>
+        <div class="shop-btn"><a href="/readytoship">SHOP NOW</a></div>
       </div>
       <div class="marketplace-banner">
         <img                 src="{{ asset('image/marketplace-banner.png') }}"
@@ -429,7 +429,7 @@
             sdfghjklxcvbnmk,dfghjkiqwertyuiosdfghjkvbnmdfghjkertyuiodsfgh
             jkcvbnmdfghjertyuidfghjcvbnmghnjfg.
           </p>
-          <div class="shop-btn"><a href="/marketplace">SHOP NOW</a></div>
+          <div class="shop-btn"><a href="/coorporate">SHOP NOW</a></div>
         </div>
       </div>
       <div class="content">
@@ -502,8 +502,7 @@
       });
     });
 
-    document.addEventListener("DOMContentLoaded", function() {
-  // Select the plus icon
+  document.addEventListener("DOMContentLoaded", function() {
   const plusIcon = document.querySelector(".icon-xl");
   
   // Select all galleries
@@ -517,18 +516,15 @@
 
   // Add click event listener to the plus icon
   plusIcon.addEventListener("click", function() {
-    // Toggle visibility of gallery 2
+    // Toggle visibility of gallery 
     if (gallery2.style.display === "none") {
       gallery2.style.display = "grid";
     } else {
-      // Toggle visibility of gallery 3
       if (gallery3.style.display === "none") {
-        gallery3.style.display = "block";
-        // Change plus icon to minus icon or whatever indication you prefer
+        gallery3.style.display = "grid";
         plusIcon.innerHTML = '<i class="fa-solid fa-minus"></i>';
       } else {
         gallery3.style.display = "none";
-        // Change back to plus icon
         plusIcon.innerHTML = '<i class="fa-solid fa-plus"></i>';
       }
     }
@@ -536,7 +532,52 @@
 });
 
 
+document.addEventListener("DOMContentLoaded", function () {
+    const popupImage = document.getElementById("popupImage");
 
+    const secondPopupImage = document.querySelector(".product .images img");
+
+    const popupContainer = document.querySelector(".popup-container");
+
+    const shopNowButtons = document.querySelectorAll(".shop-now");
+
+    // Add click event listener to each shop now button
+    shopNowButtons.forEach(function (button) {
+        button.addEventListener("click", function () {
+            const imageSource = this.parentNode.querySelector("img").getAttribute("src");
+            popupImage.setAttribute("src", imageSource);
+            secondPopupImage.setAttribute("src", imageSource);
+            popupContainer.style.display = "block";
+        });
+    });
+
+    // Add click event listener to close button
+    document.querySelector(".close-btn").addEventListener("click", function () {
+        popupContainer.style.display = "none";
+    });
+});
+
+;
+
+function adjustPopupPosition() {
+    const popupContainer = document.querySelector(".popup-container");
+
+    // Get viewport dimensions
+    const viewportWidth = window.innerWidth;
+    const viewportHeight = window.innerHeight;
+
+    // Get popup dimensions
+    const popupWidth = popupContainer.offsetWidth;
+    const popupHeight = popupContainer.offsetHeight;
+
+    // Calculate new top and left positions
+    const newTop = Math.max((viewportHeight - popupHeight) / 2, 0);
+    const newLeft = Math.max((viewportWidth - popupWidth) / 2, 0);
+
+    // Set new top and left positions
+    popupContainer.style.top = newTop + "px";
+    popupContainer.style.left = newLeft + "px";
+}
     
   </script>
 
