@@ -479,24 +479,36 @@ input[type=checkbox] {
   background-color: rgba(128, 128, 128, 0);
   z-index: 1;
 }
-.gallery-2 .gallery-2__item--1 {
-  grid-column: 1/10;
+.gallery-2 .gallery__item--1 {
+  grid-column: 1/7;
+  grid-row: 1/4;
+}
+.gallery-2 .gallery__item--2 {
+  grid-column: 7/10;
+  grid-row: 1/4;
+}
+.gallery-2 .gallery__item--3 {
+  grid-column: 10/14;
+  grid-row: 1/4;
+}
+.gallery-2 .gallery__item--4 {
+  grid-column: 14/17;
   grid-row: 1/7;
 }
-.gallery-2 .gallery-2__item--2 {
-  grid-column: 10/14;
-  grid-row: 1/4;
-}
-.gallery-2 .gallery-2__item--3 {
-  grid-column: 14/17;
-  grid-row: 1/4;
-}
-.gallery-2 .gallery-2__item--4 {
-  grid-column: 10/14;
+.gallery-2 .gallery__item--5 {
+  grid-column: 1/4;
   grid-row: 4/7;
 }
-.gallery-2 .gallery-2__item--5 {
-  grid-column: 14/17;
+.gallery-2 .gallery__item--6 {
+  grid-column: 4/7;
+  grid-row: 4/7;
+}
+.gallery-2 .gallery__item--7 {
+  grid-column: 7/12;
+  grid-row: 4/7;
+}
+.gallery-2 .gallery__item--8 {
+  grid-column: 12/14;
   grid-row: 4/7;
 }
 
@@ -1529,6 +1541,7 @@ td.checkout {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 5;
+  display: none;
   overflow: hidden;
   width: 60%;
   height: auto;
