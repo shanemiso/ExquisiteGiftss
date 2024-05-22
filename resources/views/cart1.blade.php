@@ -82,23 +82,32 @@
           </tr>
         </thead>
         <tbody>
-          <tr class="productitm">
-            <td><img src="{{ asset('image/choose4.png') }}"  class="thumb"></td>
+        @foreach($cartItems as $cartItem)
+                <tr class="productitm">
+                    <td><img src="{{ $cartItem->bundle->image }}" class="thumb"></td>
+                    <td><span class="remove"><i class="fa-regular fa-trash-can"></i></span></td>
+                    <td>Rs.{{ $cartItem->bundle->price }}</td>
+                    <td><input type="number" value="{{ $cartItem->quantity }}" min="0" max="99" class="qtyinput"></td>
+                    <td>Rs.{{ $cartItem->bundle->price * $cartItem->quantity }}</td>
+                </tr>
+            @endforeach
+          <!-- <tr class="productitm">
+            <td><img src="{$product[0].image}"  class="thumb"></td>
             <td><span class="remove"><i class="fa-regular fa-trash-can"></i></span></td>
             <td>Rs.2000</td>
             <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
             <td>Rs.2000</td>
-          </tr>
-          <tr class="productitm">
+          </tr> -->
+          <!-- <tr class="productitm">
             <td><img   src="{{ asset('image/choose4.png') }}"    class="thumb"></td>
             <td><span class="remove"><i class="fa-regular fa-trash-can"></i></span></td>
             <td>Rs.2000</td>
             <td><input type="number" value="1" min="0" max="99" class="qtyinput"></td>
             <td>Rs.2000</td>
-          </tr>
+          </tr> -->
           
           <!-- tax + subtotal -->
-        
+         <!-- {{handleCart()}} -->
           <tr class="totalprice">
             <td class="thick">Total:</td>
             <td colspan="2">&nbsp;</td>
@@ -131,4 +140,19 @@
 </div>
     
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cartItems = @json($cartItems);
+
+            function calculateTotalAmount() {
+                let totalAmount = 0;
+                cartItems.forEach((cartItem) => {
+                    totalAmount += cartItem.bundle.price * cartItem.quantity;
+                });
+                document.getElementById('total-amount').textContent = `Rs.${totalAmount}`;
+            }
+
+            calculateTotalAmount();
+        });
+    </script>
 @endsection
