@@ -13,7 +13,7 @@
           <h2>GIFTS</h2>
           <p>Changing the way of gifting.</p>
           <p>Curated with Love.</p>
-          <div class="shop-btn"><a href="/marketplace">SHOP NOW</a></div>
+          <div class="shop-btn"><a href="/buildbox1">SHOP NOW</a></div>
         </div>
       </div>
       <div class="main-content">
@@ -336,7 +336,7 @@
         <img src="{{ asset('image/holiday-banner.png') }}"alt="Banner Image" />
         <div class="overlay-text">
           <h2>HOLIDAY SPECIAL</h2>
-          <div class="shop-btn"><a href="/marketplace">SHOP NOW</a></div>
+          <div class="shop-btn"><a href="/buildbox1">SHOP NOW</a></div>
         </div>
       </div>
       <div class="content">

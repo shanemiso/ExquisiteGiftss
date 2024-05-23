@@ -47,11 +47,11 @@
                       </li>
 
                       <li>
-                        <a href="/pages/about-us" class="c-link">ABOUT</a>
+                        <a href="/about" class="c-link">ABOUT</a>
                       </li>
 
                       <li>
-                        <a href="/blogs/community" class="c-link">CAREERS</a>
+                        <a href="#" class="c-link">CAREERS</a>
                       </li>
                       <li>
                         <a href="#" class="c-link">CONTACT</a>
@@ -68,27 +68,27 @@
                     <h3>MENU</h3>
                     <ul>
                       <li>
-                        <a href="/pages/shipping-returns" class="c-link"
+                        <a href="/readytoship" class="c-link"
                           >SHOP BY OCCASION</a
                         >
                       </li>
 
                       <li>
-                        <a href="/pages/help" class="c-link">BUILD A BOX</a>
+                        <a href="/buildbox1" class="c-link">BUILD A BOX</a>
                       </li>
 
                       <li>
-                        <a href="/pages/terms-conditions" class="c-link"
+                        <a href="/shopnow" class="c-link"
                           >SHOP</a
                         >
                       </li>
 
                       <li>
-                        <a href="/pages/privacy-policy" class="c-link">ABOUT</a>
+                        <a href="/about" class="c-link">ABOUT</a>
                       </li>
 
                       <li>
-                        <a href="/pages/contact" class="c-link"
+                        <a href="/coorporate" class="c-link"
                           >CORPORATING GIFTING</a
                         >
                       </li>
