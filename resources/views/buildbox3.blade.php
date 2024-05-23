@@ -61,180 +61,180 @@
 
       <div class="grid-container">
         <div>
-        <a href="/buildbox3_2?image={{ asset('image/choose1.png') }}">
+        <a href="/buildbox3_2?image={{ asset('image/annie 1.jpg') }}">
 
           <img
             class="grid-item grid-item-1"
-            src="{{ asset('image/choose1.png') }}"
+            src="{{ asset('image/annie 1.jpg') }}"
             alt=""
           />
         </a>
           <p>Anniversary Card</p>
         </div>
         <div>
-        <a href="/buildbox3_2?image={{ asset('image/choose5.png') }}">
+        <a href="/buildbox3_2?image={{ asset('image/vd2.jpg') }}">
 
           <img
             class="grid-item grid-item-2"
-            src="{{ asset('image/choose5.png') }}"
+            src="{{ asset('image/vd2.jpg') }}"
             alt=""
           />
         </a>
           <p>Anniversary Card</p>
         </div>
         <div>
-        <a href="/buildbox3_2?image={{ asset('image/choose1.png') }}">
+        <a href="/buildbox3_2?image={{ asset('image/annie.jpg') }}">
 
           <img
             class="grid-item grid-item-3"
-            src="{{ asset('image/choose1.png') }}"
+            src="{{ asset('image/annie.jpg') }}"
             alt=""
           />
         </a>
           <p>Anniversary Card</p>
         </div>
         <div>
-        <a href="/buildbox3_2?image={{ asset('image/choose5.png') }}">
+        <a href="/buildbox3_2?image={{ asset('image/annie3.jpg') }}">
 
           <img
             class="grid-item grid-item-4"
-            src="{{ asset('image/choose5.png') }}"
+            src="{{ asset('image/annie3.jpg') }}"
             alt=""
           />
         </a>
           <p>Anniversary Card</p>
         </div>
         <div>
-        <a href="/buildbox3_2?image={{ asset('image/choose2.png') }}">
+        <a href="/buildbox3_2?image={{ asset('image/bd2.jpg') }}">
 
           <img
             class="grid-item grid-item-5"
-            src="{{ asset('image/choose2.png') }}"
+            src="{{ asset('image/bd2.jpg') }}"
             alt=""
           />
         </a>
           <p>Valentine's Day Card</p>
         </div>
         <div>
-        <a href="/buildbox3_2?image={{ asset('image/choose6.png') }}">
+        <a href="/buildbox3_2?image={{ asset('image/sweet1.jpg') }}">
 
           <img
             class="grid-item grid-item-6"
-            src="{{ asset('image/choose6.png') }}"
+            src="{{ asset('image/sweet1.jpg') }}"
             alt=""
           />
         </a>
           <p>Valentine's Day Card</p>
         </div>
         <div>
-        <a href="/buildbox3_2?image={{ asset('image/choose2.png') }}">
+        <a href="/buildbox3_2?image={{ asset('image/vd4.jpg') }}">
 
           <img
             class="grid-item grid-item-7"
-            src="{{ asset('image/choose2.png') }}"
+            src="{{ asset('image/vd4.jpg') }}"
             alt=""
           />
         </a>
           <p>Valentine's Day Card</p>
         </div>
         <div>
-        <a href="/buildbox3_2?image={{ asset('image/choose6.png') }}">
+        <a href="/buildbox3_2?image={{ asset('image/vday1.jpg') }}">
 
           <img
             class="grid-item grid-item-8"
-            src="{{ asset('image/choose6.png') }}"
+            src="{{ asset('image/vday1.jpg') }}"
             alt=""
           />
         </a>
-          <p>Valentine's Day Card</p>
+          <p>Birthday Card</p>
         </div>
         <div>
-        <a href="/buildbox3_2?image={{ asset('image/choose3.png') }}">
+        <a href="/buildbox3_2?image={{ asset('image/annie 1.jpg') }}">
 
           <img
             class="grid-item grid-item-9"
-            src="{{ asset('image/choose3.png') }}"
+            src="{{ asset('image/annie 1.jpg') }}"
             alt=""
           />
         </a>
           <p>Valentine's Day Card</p>
         </div>
         <div>
-        <a href="/buildbox3_2?image={{ asset('image/choose7.png') }}">
+        <a href="/buildbox3_2?image={{ asset('image/vd3.jpg') }}">
 
           <img
             class="grid-item grid-item-10"
-            src="{{ asset('image/choose7.png') }}"
+            src="{{ asset('image/vd3.jpg') }}"
             alt=""
           />
         </a>
           <p>Valentine's Day Card</p>
         </div>
         <div>
-        <a href="/buildbox3_2?image={{ asset('image/choose3.png') }}">
+        <a href="/buildbox3_2?image={{ asset('image/vd2.jpg') }}">
 
           <img
             class="grid-item grid-item-11"
-            src="{{ asset('image/choose3.png') }}"
+            src="{{ asset('image/vd2.jpg') }}"
             alt=""
           />
         </a>
-          <p>Birthday Card</p>
+          <p>Valentine Card</p>
         </div>
         <div>
-        <a href="/buildbox3_2?image={{ asset('image/choose7.png') }}">
+        <a href="/buildbox3_2?image={{ asset('image/birthday card 1.jpg') }}">
 
           <img
             class="grid-item grid-item-12"
-            src="{{ asset('image/choose7.png') }}"
+            src="{{ asset('image/birthday card 1.jpg') }}"
             alt=""
           />
         </a>
           <p>Birthday Card</p>
         </div>
         <div>
-        <a href="/buildbox3_2?image={{ asset('image/choose4.png') }}">
+        <a href="/buildbox3_2?image={{ asset('image/bd4.jpg') }}">
 
           <img
             class="grid-item grid-item-13"
-            src="{{ asset('image/choose4.png') }}"
+            src="{{ asset('image/bd4.jpg') }}"
             alt=""
           />
         </a>
           <p>Birthday Card</p>
         </div>
         <div>
-        <a href="/buildbox3_2?image={{ asset('image/choose8.png') }}">
+        <a href="/buildbox3_2?image={{ asset('image/bd4.jpg') }}">
 
           <img
             class="grid-item grid-item-14"
-            src="{{ asset('image/choose8.png') }}"
+            src="{{ asset('image/bd4.jpg') }}"
             alt=""
           />
         </a>
-          <p>Birthday Card</p>
+          <p>Valentine Day Card</p>
         </div>
         <div>
-        <a href="/buildbox3_2?image={{ asset('image/choose4.png') }}">
+        <a href="/buildbox3_2?image={{ asset('image/vd2.jpg') }}">
 
           <img
             class="grid-item grid-item-15"
-            src="{{ asset('image/choose4.png') }}"
+            src="{{ asset('image/vd2.jpg') }}"
             alt=""
           />
         </a>
           <p>Birthday Card</p>
         </div>
         <div>
-        <a href="/buildbox3_2?image={{ asset('image/choose8.png') }}">
+        <a href="/buildbox3_2?image={{ asset('image/bd2.jpg') }}">
 
           <img
             class="grid-item grid-item-16"
-            src="{{ asset('image/choose8.png') }}"
+            src="{{ asset('image/bd2.jpg') }}"
             alt=""
           />
         </a>  
-          <p>Birthday Card</p>
+          <p>Birthday card</p>
         </div>
       </div>
       <div class="email-container">
