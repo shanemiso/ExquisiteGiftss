@@ -82,7 +82,7 @@
         <div>
           <img
             class="grid-item grid-item-1"
-            src="{{ asset('image/wine b1.jpg') }}"           
+            src="{{ asset('image/wine b1.jpg') }}"  onclick="toggleSelection('grid-item-1')"      
             alt=""
           />
           <p>Wine Bottle</p>
@@ -91,7 +91,7 @@
 
         <div>
           <img
-            class="grid-item grid-item-2"
+            class="grid-item grid-item-2" onclick="toggleSelection('grid-item-2')"  
             src="{{ asset('image/candle.jpg') }}"           
             alt=""
           />
@@ -100,7 +100,7 @@
         <div>
           <img
             class="grid-item grid-item-3"
-            src="{{ asset('image/wine2.jpg') }}"           
+            src="{{ asset('image/wine2.jpg') }}"         onclick="toggleSelection('grid-item-3')"    
             alt=""
           />
           <p>Wine Glass</p>
@@ -108,7 +108,7 @@
         <div>
           <img
             class="grid-item grid-item-4"
-            src="{{ asset('image/candlee3.jpg') }}"           
+            src="{{ asset('image/candlee3.jpg') }}"      onclick="toggleSelection('grid-item-4')"       
             alt=""
           />
           <p>Candle</p>
@@ -116,7 +116,7 @@
         <div>
           <img
             class="grid-item grid-item-5"
-            src="{{ asset('image/wine b2.jpg') }}"           
+            src="{{ asset('image/wine b2.jpg') }}"           onclick="toggleSelection('grid-item-5')"    
             alt=""
           />
           <p>Vintage Wine</p>
@@ -124,7 +124,7 @@
         <div>
           <img
             class="grid-item grid-item-6"
-            src="{{ asset('image/candle2.jpg') }}"           
+            src="{{ asset('image/candle2.jpg') }}"            onclick="toggleSelection('grid-item-6')"   
             alt=""
           />
           <p>Vanilla Candle</p>
@@ -132,7 +132,7 @@
         <div>
           <img
             class="grid-item grid-item-7"
-            src="{{ asset('image/wine glass 1.jpg') }}"           
+            src="{{ asset('image/wine glass 1.jpg') }}"          onclick="toggleSelection('grid-item-7')"     
             alt=""
           />
           <p>Wine Glasses</p>
@@ -140,7 +140,7 @@
         <div>
           <img
             class="grid-item grid-item-8"
-            src="{{ asset('image/wine4.jpg') }}"           
+            src="{{ asset('image/wine4.jpg') }}"             onclick="toggleSelection('grid-item-8')"  
             alt=""
           />
           <p>Wine Glasses</p>
@@ -166,4 +166,16 @@
     
                     
     </div>
+    
+<script>
+  function toggleSelection(className) {
+    var element = document.querySelector('.' + className);
+    if (element.classList.contains('selected')) {
+      element.classList.remove('selected');
+    } else {
+      element.classList.add('selected');
+    }
+  }
+</script>
+
 @endsection

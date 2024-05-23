@@ -1204,11 +1204,11 @@ svg {
             padding-top: 5px;
             text-align: center;
         }
-        a{
-            width:clamp(160px, 13.5vw, 200px) ;
+        a {
+            width: clamp(160px, 13.5vw, 200px);
         }
     }
-    
+
     .grid-item {
         position: relative;
         &:hover {
@@ -1238,6 +1238,9 @@ svg {
     margin: 0 auto;
     padding-top: 5rem;
 
+    .selected {
+        border: 5px solid #272727;
+    }
     div {
         width: 150px;
         margin: 0 1.5rem 1.5rem 0;
@@ -1564,11 +1567,11 @@ td.checkout {
         margin: 0 auto;
         text-align: left;
 
-        img{
+        img {
             width: 250px;
             margin-left: 150px;
         }
-      .pay {
+        .pay {
             padding: 15px 25px;
             color: rgb(0, 0, 0);
             border: 1px solid #ccc;
@@ -1584,7 +1587,7 @@ td.checkout {
         .row {
             display: flex;
             justify-content: space-between;
-            gap: 20px
+            gap: 20px;
         }
         .text {
             line-height: 26px;
@@ -1621,7 +1624,7 @@ td.checkout {
 
         #input3 {
             height: 180px;
-            width: 100%; 
+            width: 100%;
         }
 
         button {
@@ -1638,27 +1641,25 @@ td.checkout {
         button:hover {
             background-color: #e2d2b3;
         }
-      
     }
 
- 
-     td {
+    td {
         padding-top: 20px;
-        width: 50%;    
-        .subtotal{
-            border: 1px solid 
-        }   
+        width: 50%;
+        .subtotal {
+            border: 1px solid;
+        }
     }
-      
-      table {
+
+    table {
         width: 100%;
-      
+
         margin-top: 50px;
-        img{
+        img {
             width: 20%;
             margin-right: 20px;
         }
-      }
+    }
     @media (min-width: 675px) {
         .layout {
             display: flex;
@@ -1717,8 +1718,6 @@ td.checkout {
         width: 40%;
     }
 }
-
-
 
 /*POPUP*/
 

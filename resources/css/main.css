@@ -1196,6 +1196,9 @@ svg {
   margin: 0 auto;
   padding-top: 5rem;
 }
+.grid-below .selected {
+  border: 5px solid #272727;
+}
 .grid-below div {
   width: 150px;
   margin: 0 1.5rem 1.5rem 0;
