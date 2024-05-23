@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\user\AuthController;
 use App\Http\Controllers\user\CartController;
 use Illuminate\Support\Facades\Route;
 
@@ -8,10 +9,17 @@ Route::get('/', function () {
 });
 
 Route::get('/cart', [CartController::class, 'index']);
+Route::get('/login', [AuthController::class, 'login'])->name('login');
+Route::get('/callback', [AuthController::class, 'callback'])->name('callback');
 
-Route::get('/login', function () {
-    return view('login');
-});
+Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
+
+Route::get('/profile', function () {
+    $user = request()->attributes->get('user');
+
+    return view('profile', ['user' => $user]);
+})->middleware('auth0');
+
 Route::get('/marketplace', function () {
     return view('marketplace');
 });
