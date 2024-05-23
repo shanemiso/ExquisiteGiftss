@@ -1144,13 +1144,12 @@ svg {
   width: 70%;
   margin: 0 auto;
   padding-top: 5rem;
-  margin-left: 20rem;
+  margin-left: clamp(15rem, 15vw, 20rem);
 }
 .grid-container div {
-  width: 150px;
+  width: 200px;
   margin: 0 1.5rem 1.5rem 0;
   display: inline-block;
-  width: 100%;
   padding: 5px;
   transition: all 0.25s ease-in-out;
 }
@@ -1166,6 +1165,9 @@ svg {
   margin: 5px 0;
   padding-top: 5px;
   text-align: center;
+}
+.grid-container div a {
+  width: clamp(160px, 13.5vw, 200px);
 }
 .grid-container .grid-item {
   position: relative;

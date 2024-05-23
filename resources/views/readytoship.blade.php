@@ -75,131 +75,191 @@
       </section>
       <div class="grid-container">
         <div>
+          <a href="/cart">
           <img
             class="grid-item grid-item-1"
             src="{{ asset('image/grid-img1.png') }}"
             alt=""
-          />
+          /></a>
           <p>Fathers Day Box</p>
+
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-2"
             src="{{ asset('image/grid-img2.png') }}"
             alt=""
           />
+        </a>
           <p>Mother's Day Box</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-3"
             src="{{ asset('image/grid-img3.png') }}"
             alt=""
           />
+          </a>
+
           <p>Birthday Box</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-4"
             src="{{ asset('image/grid-img4.png') }}"
             alt=""
           />
+          </a>
+
           <p>Mother's Day Box</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-5"
             src="{{ asset('image/grid-img5.png') }}"
             alt=""
           />
+          </a>
+
           <p>Christmas Day Box</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-6"
             src="{{ asset('image/grid-img6.png') }}"
             alt=""
           />
+          </a>
+
           <p>Mother's Day Box</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-7"
             src="{{ asset('image/grid-img7.png') }}"
             alt=""
           />
+          </a>
+
           <p>Christmas Day Box</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-8"
             src="{{ asset('image/grid-img8.png') }}"
             alt=""
           />
+          </a>
+
           <p> Father's Day Box</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-9"
             src="{{ asset('image/grid-img1.png') }}"
             alt=""
           />
+          </a>
+
           <p>Father's Day Box</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-10"
             src="{{ asset('image/grid-img2.png') }}"
             alt=""
           />
+          </a>
+
           <p>Gift for her Box</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-11"
             src="{{ asset('image/grid-img3.png') }}"
             alt=""
           />
+          </a>
+
           <p>Pink Gift Box</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-12"
             src="{{ asset('image/grid-img4.png') }}"
             alt=""
           />
+          </a>
+
           <p>Christmas Gift  Box</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-13"
             src="{{ asset('image/grid-img5.png') }}"
             alt=""
           />
+          </a>
+
           <p>Christmas  Gift Box</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-14"
             src="{{ asset('image/grid-img6.png') }}"
             alt=""
           />
+          </a>
+
           <p>Happy Diwali Box</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-15"
             src="{{ asset('image/grid-img7.png') }}"
             alt=""
           />
+          </a>
+
           <p>Father's Day Box</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-16"
             src="{{ asset('image/grid-img8.png') }}"
             alt=""
           />
+        </a>
           <p>Mother's Day Box</p>
         </div>
       </div>

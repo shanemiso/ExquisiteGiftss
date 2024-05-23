@@ -73,120 +73,185 @@
       </section>
       <div class="grid-container">
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-1"
             src="{{ asset('image/choose1.png') }}"
             alt=""
           />
+          </a>
+
           <p>Mother's Day</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-2"
             src="{{ asset('image/choose5.png') }}"            alt=""
           />
+          </a>
 
           <p>Father's Day</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-3"
             src="{{ asset('image/choose1.png') }}"            alt=""
           />
           <p>Mother's Day</p>
+          </a>
+
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-4"
             src="{{ asset('image/choose5.png') }}"            alt=""
           />
+          </a>
+
           <p>Mother's Day</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-5"
             src="{{ asset('image/choose2.png') }}"            alt=""
           />
+          </a>
+
           <p>Mother's Day</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-6"
             src="{{ asset('image/choose6.png') }}"            alt=""
           />
+          </a>
+
           <p>Mother's Day</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-7"
             src="{{ asset('image/choose2.png') }}"            alt=""
           />
+          </a>
+
           <p>Mother's Day</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-8"
             src="{{ asset('image/choose6.png') }}"            alt=""
           />
+          </a>
+
           <p>Mother's Day</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-9"
             src="{{ asset('image/choose3.png') }}"            alt=""
           />
+          </a>
+
           <p>Mother's Day</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-10"
             src="{{ asset('image/choose7.png') }}"              alt=""
           />
+          </a>
+
           <p>Father's Day</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-11"
             src="{{ asset('image/choose3.png') }}"              alt=""
           />
+          </a>
+
           <p>Mother's Day</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-12"
             src="{{ asset('image/choose7.png') }}"              alt=""
           />
+          </a>
+
           <p>Mother's Day</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-13"
             src="{{ asset('image/choose4.png') }}"              alt=""
           />
+          </a>
+
           <p>Mother's Day</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-14"
             src="{{ asset('image/choose8.png') }}"              alt=""
           />
+          </a>
+
           <p>Mother's Day</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-15"
             src="{{ asset('image/choose4.png') }}"              alt=""
           />
+          </a>
+
           <p>Mother's Day</p>
         </div>
         <div>
+        <a href="/cart">
+
           <img
             class="grid-item grid-item-16"
             src="{{ asset('image/choose8.png') }}"              alt=""
           />
+          </a>
+
           <p>Mother's Day</p>
         </div>
       </div>
+      <a href="/cart">
+
       <div class="email-container">
       <div class="email-content">
         <p class="left-align">sign up for updates:</p>
