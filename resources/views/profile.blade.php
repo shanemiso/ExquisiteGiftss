@@ -36,7 +36,7 @@
       <div class="profile-container">
         <div class="section">
           <p>My Account</p>
-          <a href="#">Log Out</a>
+          <a href="/logout">Log Out</a>
         </div>
         <div class="layout">
           <div class="layout_item w-50">
