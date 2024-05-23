@@ -42,14 +42,8 @@
         <div class="about-content">
           <h3>Curate with Love</h3>
           <h2>Creating  Uniqueness Since 2019</h2>
-          <p>dsbcsdbvsdbvds v,msd jk bs,n ksdbvj sdkjvbuskrhgorej,fgvkwgoewhgvjldsnvkj
-            uovbjkwbvurwvbewjvbrgvjbevkjruvohbrejvberkjbvjerbvkjbkjrbvkjrbgvkjerbkjerbjebkj
-            bvkjerjvbekjbvrkjebvkjerbvkjbvkjrebvkjerbvkjebkjerbjlebvuwbvjwrbhvjsbvlwjubgvwbvkjbvo
-            uwebvwjlebvowueubvowebvjlwngvwehfoewhewuhbrwrrirleworilovefihewbfkjbsdkhcsdkbvjhebviebvhkdbvd</p>
-            <p>dsbcsdbvsdbvds v,msd jk bs,n ksdbvj sdkjvbuskrhgorej,fgvkwgoewhgvjldsnvkjuovbjkwbvurwvbewjvbrgvjbevkjruvohbr
-              ejvberkjbvjerbvkjbkjrbvkjrbgvkjerbkje
-              rbjebkjbvkjerjvbekjbvrkjebvkjerbvkjbvkjrebvkjerbvkjebkjerbjlebvuwbvjwrbhvjsbvlwjubgvw
-              bvkjbvouwebvwjlebvowueubvowebvjlwngvwehfoewhewuhbrwrrirleworilovefihewbfkjbsdkhcsdkbvjhebviebvhkdbvd</p>
+          <p>Welcome to Exquisite Gifts, a company born out of a desire to spread happiness through beautiful creations since our inception in 2019. Our journey began with a simple yet powerful idea: to craft creative gifts infused with love, aiming to bring joy into people's lives. In today's fast-paced world, we understand the importance of meaningful gestures amidst busy schedules, making our offerings the perfect solution for those seeking heartfelt expressions of care and appreciation.
+What sets us apart is our dedication to creating not just products, but experiences that evoke genuine happiness. From meticulously designed gift sets to personalized creations, every item is crafted with utmost care and attention to detail. Our main goal is to see smiles on faces and hearts filled with warmth, making every occasion memorable and special.</p>
         </div>
         <div class="about-content">
         <h2>You can shop us </h2>

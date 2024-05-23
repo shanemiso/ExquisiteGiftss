@@ -69,7 +69,7 @@
             alt=""
           />
         </a>
-          <p>Mother's Day</p>
+          <p>Anniversary Card</p>
         </div>
         <div>
         <a href="/buildbox3_2?image={{ asset('image/choose5.png') }}">
@@ -80,7 +80,7 @@
             alt=""
           />
         </a>
-          <p>Father's Day</p>
+          <p>Anniversary Card</p>
         </div>
         <div>
         <a href="/buildbox3_2?image={{ asset('image/choose1.png') }}">
@@ -91,7 +91,7 @@
             alt=""
           />
         </a>
-          <p>Mother's Day</p>
+          <p>Anniversary Card</p>
         </div>
         <div>
         <a href="/buildbox3_2?image={{ asset('image/choose5.png') }}">
@@ -102,7 +102,7 @@
             alt=""
           />
         </a>
-          <p>Mother's Day</p>
+          <p>Anniversary Card</p>
         </div>
         <div>
         <a href="/buildbox3_2?image={{ asset('image/choose2.png') }}">
@@ -113,7 +113,7 @@
             alt=""
           />
         </a>
-          <p>Mother's Day</p>
+          <p>Valentine's Day Card</p>
         </div>
         <div>
         <a href="/buildbox3_2?image={{ asset('image/choose6.png') }}">
@@ -124,7 +124,7 @@
             alt=""
           />
         </a>
-          <p>Mother's Day</p>
+          <p>Valentine's Day Card</p>
         </div>
         <div>
         <a href="/buildbox3_2?image={{ asset('image/choose2.png') }}">
@@ -135,7 +135,7 @@
             alt=""
           />
         </a>
-          <p>Mother's Day</p>
+          <p>Valentine's Day Card</p>
         </div>
         <div>
         <a href="/buildbox3_2?image={{ asset('image/choose6.png') }}">
@@ -146,7 +146,7 @@
             alt=""
           />
         </a>
-          <p>Mother's Day</p>
+          <p>Valentine's Day Card</p>
         </div>
         <div>
         <a href="/buildbox3_2?image={{ asset('image/choose3.png') }}">
@@ -157,7 +157,7 @@
             alt=""
           />
         </a>
-          <p>Mother's Day</p>
+          <p>Valentine's Day Card</p>
         </div>
         <div>
         <a href="/buildbox3_2?image={{ asset('image/choose7.png') }}">
@@ -168,7 +168,7 @@
             alt=""
           />
         </a>
-          <p>Father's Day</p>
+          <p>Valentine's Day Card</p>
         </div>
         <div>
         <a href="/buildbox3_2?image={{ asset('image/choose3.png') }}">
@@ -179,7 +179,7 @@
             alt=""
           />
         </a>
-          <p>Mother's Day</p>
+          <p>Birthday Card</p>
         </div>
         <div>
         <a href="/buildbox3_2?image={{ asset('image/choose7.png') }}">
@@ -190,7 +190,7 @@
             alt=""
           />
         </a>
-          <p>Mother's Day</p>
+          <p>Birthday Card</p>
         </div>
         <div>
         <a href="/buildbox3_2?image={{ asset('image/choose4.png') }}">
@@ -201,7 +201,7 @@
             alt=""
           />
         </a>
-          <p>Mother's Day</p>
+          <p>Birthday Card</p>
         </div>
         <div>
         <a href="/buildbox3_2?image={{ asset('image/choose8.png') }}">
@@ -212,7 +212,7 @@
             alt=""
           />
         </a>
-          <p>Mother's Day</p>
+          <p>Birthday Card</p>
         </div>
         <div>
         <a href="/buildbox3_2?image={{ asset('image/choose4.png') }}">
@@ -223,7 +223,7 @@
             alt=""
           />
         </a>
-          <p>Mother's Day</p>
+          <p>Birthday Card</p>
         </div>
         <div>
         <a href="/buildbox3_2?image={{ asset('image/choose8.png') }}">
@@ -234,7 +234,7 @@
             alt=""
           />
         </a>  
-          <p>Mother's Day</p>
+          <p>Birthday Card</p>
         </div>
       </div>
       <div class="email-container">

@@ -418,17 +418,12 @@
         </div>
         <div class="text">
           <h2>COORPORATE</h2>
-          <p>
-            Sedsfghbvcfdrtfyghjdfghjknbjkjrstrtfgyhuijqwertyuioasdfghjkzxc
-            vbnmasdfghjkaarthikbjhfjdjfgvmgjfjfhbmjuyulitjtydrfcgh
-            sdfghjklxcvbnmk,dfghjkiqwertyuiosdfghjkvbnmdfghjkertyuiodsfgh
-            jkcvbnmdfghjertyuidfghjcvbnmghnjfg.
-          </p>
-          <p>
-            Sedsfghbvcfdrtfyghjdfghjknbjkjrstrtfgyhuijqwertyuioasdfghjkzxc
-            vbnmasdfghjkaarthikbjhfjdjfgvmgjfjfhbmjuyulitjtydrfcgh
-            sdfghjklxcvbnmk,dfghjkiqwertyuiosdfghjkvbnmdfghjkertyuiodsfgh
-            jkcvbnmdfghjertyuidfghjcvbnmghnjfg.
+        
+          Corporate orders are the lifeblood of many upscale gifting platforms, representing a significant segment of their clientele. These orders often involve larger quantities, customization requirements, and stringent delivery timelines tailored to corporate events, client appreciation gestures, or employee recognition programs. 
+
+          
+          
+            
           </p>
           <div class="shop-btn"><a href="/coorporate">SHOP NOW</a></div>
         </div>
@@ -439,8 +434,7 @@
             <h2>ABOUT US</h2>
           </div>
           <p class="about-text">
-            Sedsfghbvcfdrtfyghjdfghjknbjkjrstrtfgyhuijqwertyuioasdfghjkzxcvbnmasdfghjkaa
-            sdfghjklxcvbnmkhhhhhhhhhhhhhhhhhhhhhhjkkkkkkkkkkkkkkkkkkkkkvc
+          Welcome to Exquisite Gifts, a company born out of a desire to spread happiness through beautiful creations since our inception in 2019. Our journey began with a simple yet powerful idea: to craft creative gifts infused with love, aiming to bring joy into people's lives.
           </p>
           <div class="overlay__item">
             <img
