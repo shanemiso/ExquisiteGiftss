@@ -43,3 +43,11 @@ Route::get('/about', function () {
 Route::get('/coorporate', function () {
     return view('coorporate');
 });
+
+Route::get('/box', function () {
+    return view('box_video');
+});
+
+Route::get('/checkout', function () {
+    return view('checkout');
+});

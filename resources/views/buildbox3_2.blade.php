@@ -5,7 +5,7 @@
 @section('content')
 
     <div class="main">
-    <nav class="navbar">
+      <nav class="navbar">
         <!-- NAVIGATION MENU -->
         <ul class="nav-links">
           <input type="checkbox" id="checkbox_toggle" />
@@ -22,7 +22,7 @@
             <li><a href="/buildbox1">BUILD A BOX</a></li>
             <li><a href="/readytoship">READY TO SHIP</a></li>
             <div class="nav-icon">
-            <a href="/marketplace"><i class="fa-regular fa-heart"></i></a>
+            <a href="/#favourites"><i class="fa-regular fa-heart"></i></a>
               <a href="/profile"><i class="fa-regular fa-user"></i></a>
               <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
               <a href="/cart"><i class="fa-solid fa-cart-shopping"></i></a>
@@ -86,26 +86,26 @@
             <div class="form-group">
               <input type="text" id="input3" name="input3" placeholder="" />
             </div>
-            <button type="submit">ADD TO CART</button>
+            <a href="/box" type="submit">ADD TO CART</a>
           </form>
         </div>
       </div>
       
       <div class="email-container">
-      <div class="email-content">
-        <p class="left-align">sign up for updates:</p>
-        <input
-          type="text"
-          class="form-control custom-input"
-          name="email"
-          id="email"
-          placeholder="email address"
-        />
-        <input type="submit" value="SUBMIT" class="submit-btn" />
-        <span class="submitting"></span>
-        <p class="align">by signing up you agree to our terms.</p>
+        <div class="email-content">
+          <p class="left-align">sign up for updates:</p>
+          <input
+            type="text"
+            class="form-control custom-input"
+            name="email"
+            id="email"
+            placeholder="email address"
+          />
+          <input type="submit" value="SUBMIT" class="submit-btn" />
+          <span class="submitting"></span>
+          <p class="align">by signing up you agree to our terms.</p>
+        </div>
       </div>
-</div>
     
     </div>
 @endsection

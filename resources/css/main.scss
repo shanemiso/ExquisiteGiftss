@@ -79,7 +79,7 @@ li {
     list-style: none;
 }
 
-.navbar-transparent{
+.navbar-transparent {
     position: fixed;
     top: 0;
     left: 0;
@@ -90,19 +90,15 @@ li {
     display: flex;
     align-content: center;
     justify-content: space-around;
-    padding: 20px; 
+    padding: 20px;
     .nav-links {
-    
         a {
             color: #fff;
         }
         .nav-icon {
-        
-    
             color: #fff;
-         
+        }
     }
-}
 }
 .navbar {
     position: fixed;
@@ -148,12 +144,9 @@ li {
     gap: 1em;
     font-size: 18px;
 
-  
     li {
         padding: 5px 14px;
     }
-
-   
 }
 
 /* RESPONSIVE NAVBAR MENU STARTS */
@@ -207,11 +200,14 @@ input[type='checkbox'] {
     padding-top: 8rem;
     text-align: center;
     background-color: #ede6d1;
-    button{
+    button {
         border: none;
     }
 }
 
+video {
+    width: 90%;
+}
 .navigate {
     width: 60%;
     background-color: #fff;
@@ -275,7 +271,7 @@ input[type='checkbox'] {
 
 .box-title {
     padding-left: 12px;
-    padding-top: 10px ;
+    padding-top: 10px;
 }
 
 /*GRIDS*/
@@ -328,7 +324,7 @@ input[type='checkbox'] {
 
     .buttontest {
         opacity: 0;
-        z-index: 100;
+        z-index: 2;
     }
 
     .test:hover .buttontest {
@@ -723,7 +719,6 @@ input[type='checkbox'] {
         .no-transition {
             scroll-behavior: auto;
         }
-     
     }
 }
 
@@ -768,13 +763,9 @@ input[type='checkbox'] {
                 height: 80%;
                 object-fit: cover;
                 border-radius: 1rem;
-          
             }
-           
         }
-      
     }
-
 }
 
 .pagination {
@@ -823,9 +814,8 @@ input[type='checkbox'] {
     margin: 4px 2px;
     cursor: pointer;
     margin-top: 2rem;
-    &:hover{
+    &:hover {
         background-color: #d8c8a6;
-
     }
 }
 
@@ -913,7 +903,6 @@ input[type='checkbox'] {
     justify-content: center;
     align-items: center;
     font-family: Poppins;
-
 }
 .email-content {
     width: 50%;
@@ -943,7 +932,6 @@ input[type='checkbox'] {
     box-sizing: border-box;
     font-size: 16px;
     margin-right: 1rem;
-
 }
 
 .custom-placeholder {
@@ -953,7 +941,6 @@ input[type='checkbox'] {
     pointer-events: none;
     transition: all 0.3s ease;
     color: #aaa;
-
 }
 
 #email:focus + .custom-placeholder,
@@ -966,7 +953,6 @@ input[type='checkbox'] {
     background-color: #fff;
     padding: 0 5px;
     font-family: Poppins;
-
 }
 
 .about-us {
@@ -1029,7 +1015,6 @@ a {
     margin-bottom: 0.5rem;
     display: inline-flex;
     font-family: Poppins;
-
 }
 a:hover {
     border-bottom: 1px solid var(--dark);
@@ -1050,7 +1035,6 @@ ul {
     background-color: #e2d2b3;
     z-index: 10;
     font-family: Poppins;
-
 }
 .footer-container {
     max-width: 80%;
@@ -1094,7 +1078,6 @@ svg {
     align-items: center;
     justify-content: center;
 }
-
 
 /*TRACKING*/
 
@@ -1141,14 +1124,14 @@ svg {
     border-radius: 50%;
 }
 
-
 .step-container span {
     margin-top: 5px;
     font-size: 25px;
     color: #5f6368;
 }
 
-.first-box, .second-box {
+.first-box,
+.second-box {
     height: 500px;
     width: 500px;
     padding-left: 3rem;
@@ -1156,12 +1139,10 @@ svg {
     background-color: none;
     display: inline-block;
     cursor: pointer;
-    &:hover{
+    &:hover {
         background-color: #e2d2b3;
     }
 }
-
-
 
 @media screen and (max-width: 1280px) {
     .first-box {
@@ -1204,7 +1185,6 @@ svg {
     padding-top: 5rem;
     margin-left: 20rem;
 
-
     div {
         width: 150px;
         margin: 0 1.5rem 1.5rem 0;
@@ -1233,7 +1213,6 @@ svg {
                 background-color: rgba(128, 128, 128, 0.8);
             }
         }
-    
     }
 
     .grid-item::after {
@@ -1256,7 +1235,6 @@ svg {
     margin: 0 auto;
     padding-top: 5rem;
 
-
     div {
         width: 150px;
         margin: 0 1.5rem 1.5rem 0;
@@ -1285,7 +1263,6 @@ svg {
                 background-color: rgba(128, 128, 128, 0.8);
             }
         }
-    
     }
 
     .grid-item::after {
@@ -1300,7 +1277,6 @@ svg {
         z-index: 1;
     }
 }
-
 
 /*Build Box Page 3*/
 
@@ -1390,9 +1366,6 @@ svg {
 
 /*CART*/
 
-
-
-
 .checkout {
     float: right;
     border: 0;
@@ -1407,8 +1380,6 @@ svg {
 .checkout:hover {
     background-color: #d8c8a6;
 }
-
-
 
 /* page structure */
 #w {
@@ -1572,6 +1543,137 @@ td.checkout {
     }
 }
 
+/*CHECKOUT*/
+.checkout-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ede6d1;
+
+    li {
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .checkout-form {
+        display: flex;
+        justify-content: left;
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+
+        img{
+            width: 250px;
+            margin-left: 150px;
+        }
+      .pay {
+            padding: 15px 25px;
+            color: rgb(0, 0, 0);
+            border: 1px solid #ccc;
+            width: 100%;
+            margin-bottom: 2rem;
+            cursor: pointer;
+            float: right;
+        }
+
+        .pay:hover {
+            background-color: #ffffff;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px
+        }
+        .text {
+            line-height: 26px;
+        }
+        form {
+            margin-top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+            flex-direction: column;
+        }
+
+        label {
+            font-size: 18px;
+        }
+        input[type='text'] {
+            width: 100%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-right: 40px;
+            padding-left: 20px;
+            border: 1px solid #585858;
+            background-color: #ede6d1;
+        }
+        .quantity {
+            width: 30%;
+            height: 40px;
+            border: 1px solid #ccc;
+            background: #ede6d1;
+            color: #616161;
+            text-align: center;
+        }
+
+        #input3 {
+            height: 180px;
+            width: 100%; 
+        }
+
+        button {
+            padding: 15px 25px;
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            border: 1px solid #ccc;
+            width: 50%;
+            margin-bottom: 2rem;
+            cursor: pointer;
+            float: right;
+        }
+
+        button:hover {
+            background-color: #e2d2b3;
+        }
+      
+    }
+
+ 
+     td {
+        padding-top: 20px;
+        width: 50%;    
+        .subtotal{
+            border: 1px solid 
+        }   
+    }
+      
+      table {
+        width: 100%;
+      
+        margin-top: 50px;
+        img{
+            width: 20%;
+            margin-right: 20px;
+        }
+      }
+    @media (min-width: 675px) {
+        .layout {
+            display: flex;
+            flex-wrap: nowrap;
+            column-gap: 2rem;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        .w-60 {
+            width: 50%;
+            border-right: 1px solid;
+        }
+        .w-40 {
+            width: 50%;
+        }
+    }
+}
+
 /*BUILD BOX 2*/
 .item-container {
     max-width: 90%;
@@ -1582,7 +1684,6 @@ td.checkout {
 
     .checkout {
         float: left;
-
     }
 
     .fill {
@@ -1623,13 +1724,12 @@ $pink: #d9aab7;
 $rose: #ba7e7e;
 $dark: #4e4e4e;
 
-
 .popup-container {
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 5;
+    z-index: 10;
     display: none;
     overflow: hidden;
     width: 60%;
@@ -1691,8 +1791,6 @@ $dark: #4e4e4e;
     cursor: pointer;
 }
 
-
-
 .add {
     width: 67%;
 }
@@ -1724,8 +1822,6 @@ $dark: #4e4e4e;
     color: $white;
 }
 
-
-
 /*SHOP NOW*/
 
 .shop-container {
@@ -1737,7 +1833,6 @@ $dark: #4e4e4e;
     margin: 0 auto;
     background-color: #ffffff;
     text-align: left;
-    
 
     img {
         max-width: 90%;
@@ -1753,10 +1848,9 @@ $dark: #4e4e4e;
     .form-group {
         margin-bottom: 25px;
         flex-direction: column;
-
     }
 
-    label{
+    label {
         font-size: 18px;
     }
     input[type='text'] {
@@ -1775,7 +1869,7 @@ $dark: #4e4e4e;
         color: #616161;
         text-align: center;
     }
-    
+
     #input3 {
         height: 180px;
         width: 100%; /* Adjust the height as needed */
@@ -1841,7 +1935,6 @@ $dark: #4e4e4e;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
 }
 
 .about-content {

@@ -22,7 +22,7 @@
             <li><a href="/buildbox1">BUILD A BOX</a></li>
             <li><a href="/readytoship">READY TO SHIP</a></li>
             <div class="nav-icon">
-            <a href="/marketplace"><i class="fa-regular fa-heart"></i></a>
+            <a href="/#favourites"><i class="fa-regular fa-heart"></i></a>
               <a href="/profile"><i class="fa-regular fa-user"></i></a>
               <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
               <a href="/cart"><i class="fa-solid fa-cart-shopping"></i></a>
@@ -77,5 +77,19 @@
 </div>
      
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const cartItems = @json($cartItems);
 
+            function calculateTotalAmount() {
+                let totalAmount = 0;
+                cartItems.forEach((cartItem) => {
+                    totalAmount += cartItem.bundle.price * cartItem.quantity;
+                });
+                document.getElementById('total-amount').textContent = `Rs.${totalAmount}`;
+            }
+
+            calculateTotalAmount();
+        });
+    </script>
     @endsection
