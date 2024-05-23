@@ -197,6 +197,10 @@ input[type=checkbox] {
   border: none;
 }
 
+video {
+  width: 90%;
+}
+
 .navigate {
   width: 60%;
   background-color: #fff;
@@ -311,7 +315,7 @@ input[type=checkbox] {
 }
 .gallery .buttontest {
   opacity: 0;
-  z-index: 100;
+  z-index: 2;
 }
 .gallery .test:hover .buttontest {
   opacity: 1;
@@ -1087,7 +1091,8 @@ svg {
   color: #5f6368;
 }
 
-.first-box, .second-box {
+.first-box,
+.second-box {
   height: 500px;
   width: 500px;
   padding-left: 3rem;
@@ -1096,7 +1101,8 @@ svg {
   display: inline-block;
   cursor: pointer;
 }
-.first-box:hover, .second-box:hover {
+.first-box:hover,
+.second-box:hover {
   background-color: #e2d2b3;
 }
 
@@ -1495,6 +1501,125 @@ td.checkout {
   margin-top: 3.5rem;
 }
 
+/*CHECKOUT*/
+.checkout-container {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ede6d1;
+}
+.checkout-container li {
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.checkout-container .checkout-form {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+.checkout-container .checkout-form img {
+  width: 250px;
+  margin-left: 150px;
+}
+.checkout-container .checkout-form .pay {
+  padding: 15px 25px;
+  color: rgb(0, 0, 0);
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  float: right;
+}
+.checkout-container .checkout-form .pay:hover {
+  background-color: #ffffff;
+}
+.checkout-container .checkout-form .row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.checkout-container .checkout-form .text {
+  line-height: 26px;
+}
+.checkout-container .checkout-form form {
+  margin-top: 20px;
+}
+.checkout-container .checkout-form .form-group {
+  margin-bottom: 25px;
+  flex-direction: column;
+}
+.checkout-container .checkout-form label {
+  font-size: 18px;
+}
+.checkout-container .checkout-form input[type=text] {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 40px;
+  padding-left: 20px;
+  border: 1px solid #585858;
+  background-color: #ede6d1;
+}
+.checkout-container .checkout-form .quantity {
+  width: 30%;
+  height: 40px;
+  border: 1px solid #ccc;
+  background: #ede6d1;
+  color: #616161;
+  text-align: center;
+}
+.checkout-container .checkout-form #input3 {
+  height: 180px;
+  width: 100%;
+}
+.checkout-container .checkout-form button {
+  padding: 15px 25px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 1px solid #ccc;
+  width: 50%;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  float: right;
+}
+.checkout-container .checkout-form button:hover {
+  background-color: #e2d2b3;
+}
+.checkout-container td {
+  padding-top: 20px;
+  width: 50%;
+}
+.checkout-container td .subtotal {
+  border: 1px solid;
+}
+.checkout-container table {
+  width: 100%;
+  margin-top: 50px;
+}
+.checkout-container table img {
+  width: 20%;
+  margin-right: 20px;
+}
+@media (min-width: 675px) {
+  .checkout-container .layout {
+    display: flex;
+    flex-wrap: nowrap;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .checkout-container .w-60 {
+    width: 50%;
+    border-right: 1px solid;
+  }
+  .checkout-container .w-40 {
+    width: 50%;
+  }
+}
+
 /*BUILD BOX 2*/
 .item-container {
   max-width: 90%;
@@ -1540,7 +1665,7 @@ td.checkout {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 5;
+  z-index: 10;
   display: none;
   overflow: hidden;
   width: 60%;

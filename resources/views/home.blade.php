@@ -46,9 +46,9 @@
         </ul>
       </nav>
       <div class="breadcrumb flat">
-        <a href="buildbox1.html">BUILD A BOX</a>
-        <a href="readytoship.html">READY TO SHIP</a>
-        <a href="marketplace.html">MARKETPLACE</a>
+        <a href="/buildbox1">BUILD A BOX</a>
+        <a href="/readytoship">READY TO SHIP</a>
+        <a href="/marketplace">MARKETPLACE</a>
       </div>
       <div class="content">
         <h2>WHAT WE DO?</h2>

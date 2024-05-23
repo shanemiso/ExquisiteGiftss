@@ -5,7 +5,7 @@
 @section('content')
 
     <div class="main">
-    <nav class="navbar">
+      <nav class="navbar">
         <!-- NAVIGATION MENU -->
         <ul class="nav-links">
           <input type="checkbox" id="checkbox_toggle" />
@@ -86,26 +86,26 @@
             <div class="form-group">
               <input type="text" id="input3" name="input3" placeholder="" />
             </div>
-            <button type="submit">ADD TO CART</button>
+            <a href="/box" type="submit">ADD TO CART</a>
           </form>
         </div>
       </div>
       
       <div class="email-container">
-      <div class="email-content">
-        <p class="left-align">sign up for updates:</p>
-        <input
-          type="text"
-          class="form-control custom-input"
-          name="email"
-          id="email"
-          placeholder="email address"
-        />
-        <input type="submit" value="SUBMIT" class="submit-btn" />
-        <span class="submitting"></span>
-        <p class="align">by signing up you agree to our terms.</p>
+        <div class="email-content">
+          <p class="left-align">sign up for updates:</p>
+          <input
+            type="text"
+            class="form-control custom-input"
+            name="email"
+            id="email"
+            placeholder="email address"
+          />
+          <input type="submit" value="SUBMIT" class="submit-btn" />
+          <span class="submitting"></span>
+          <p class="align">by signing up you agree to our terms.</p>
+        </div>
       </div>
-</div>
     
     </div>
 @endsection
