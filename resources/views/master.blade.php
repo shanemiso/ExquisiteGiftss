@@ -29,11 +29,11 @@
                 <div class="layout_item w-50">
                   <div class="newsletter">
                     <h3>ABOUT US</h3>
-                    <p>
-                      EXQUISITEGIFTS iasjbjsshcAzsxdfgbhnjjcscdcfgvbiajkszkjsn
-                    </p>
-                    <p>
-                      jkkmishnlovejnbjazjrthiknjksasdfghjklxcxdcfvbgnm.asdfghjkerrtyuivbnm
+                  
+                    Welcome to Exquisite Gifts, a company born out of a desire to spread happiness through beautiful creations since our inception in 2019.
+                    
+                    
+                      
                     </p>
                   </div>
                 </div>

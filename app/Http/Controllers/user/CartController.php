@@ -1,8 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\user;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Cart;
 use App\Models\Product;
 
 class CartController extends Controller
@@ -45,6 +47,6 @@ class CartController extends Controller
 
         $cartItems = Cart::with('bundle')->where('user_id', $user->id)->get();
 
-        return view('cart.index', ['cartItems' => $cartItems]);
+        return view('cart1', ['cartItems' => $cartItems]);
     }
 }

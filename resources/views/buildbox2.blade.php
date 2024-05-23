@@ -85,7 +85,7 @@
             src="{{ asset('image/choose1.png') }}"           
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Hemp bag</p>
 
         </div>
 
@@ -95,7 +95,7 @@
             src="{{ asset('image/choose5.png') }}"           
             alt=""
           />
-          <p>Father's Day</p>
+          <p>Tote bag</p>
         </div>
         <div>
           <img
@@ -103,7 +103,7 @@
             src="{{ asset('image/choose1.png') }}"           
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Hemp Bag</p>
         </div>
         <div>
           <img
@@ -111,7 +111,7 @@
             src="{{ asset('image/choose5.png') }}"           
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Tote Bag</p>
         </div>
         <div>
           <img
@@ -119,7 +119,7 @@
             src="{{ asset('image/choose2.png') }}"           
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Scrunchies</p>
         </div>
         <div>
           <img
@@ -127,7 +127,7 @@
             src="{{ asset('image/choose6.png') }}"           
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Scrunchies</p>
         </div>
         <div>
           <img
@@ -135,7 +135,7 @@
             src="{{ asset('image/choose2.png') }}"           
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Scrunchies</p>
         </div>
         <div>
           <img
@@ -143,7 +143,7 @@
             src="{{ asset('image/choose6.png') }}"           
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Scrunchies</p>
         </div>
        
     

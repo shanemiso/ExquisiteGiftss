@@ -80,7 +80,7 @@
             src="{{ asset('image/grid-img1.png') }}"
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Birthday Box</p>
         </div>
         <div>
           <img
@@ -88,7 +88,7 @@
             src="{{ asset('image/grid-img2.png') }}"
             alt=""
           />
-          <p>Father's Day</p>
+          <p>Mothers Day Box</p>
         </div>
         <div>
           <img
@@ -96,7 +96,7 @@
             src="{{ asset('image/grid-img3.png') }}"
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Birthday Box</p>
         </div>
         <div>
           <img
