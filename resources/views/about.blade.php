@@ -102,24 +102,24 @@ What sets us apart is our dedication to creating not just products, but experien
           <div class="team-box">
             <img
               class="box-image"
-              src="{{ asset('image/founder.png') }}"
+              src="{{ asset('image/sagarika.jpg') }}"
               alt="Card1"
             />
             <div class="title-flex">
               <h4 class="box-title">Founder</h4>
-              <h5>Rashi Rajbhandari</h5>  
+              <h5>Rashi Rajbhandary</h5>  
 
             </div>
           </div>
           <div class="team-box">
             <img
               class="box-image"
-              src="{{ asset('image/creative-head.png') }}"
+              src="{{ asset('image/stuti.jpg') }}"
               alt="Card2"
             />
             <div class="title-flex">
               <h4 class="box-title">Creative Head</h4>
-            <h5>Stuti Rajbhandari</h5>  
+            <h5>Stuti Rajbhandary</h5>  
             </div>
           </div>
       </div>

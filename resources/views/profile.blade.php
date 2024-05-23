@@ -77,19 +77,5 @@
 </div>
      
     </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const cartItems = @json($cartItems);
 
-            function calculateTotalAmount() {
-                let totalAmount = 0;
-                cartItems.forEach((cartItem) => {
-                    totalAmount += cartItem.bundle.price * cartItem.quantity;
-                });
-                document.getElementById('total-amount').textContent = `Rs.${totalAmount}`;
-            }
-
-            calculateTotalAmount();
-        });
-    </script>
     @endsection

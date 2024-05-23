@@ -82,68 +82,68 @@
         <div>
           <img
             class="grid-item grid-item-1"
-            src="{{ asset('image/choose1.png') }}"           
+            src="{{ asset('image/wine b1.jpg') }}"           
             alt=""
           />
-          <p>Hemp bag</p>
+          <p>Wine Bottle</p>
 
         </div>
 
         <div>
           <img
             class="grid-item grid-item-2"
-            src="{{ asset('image/choose5.png') }}"           
+            src="{{ asset('image/candle.jpg') }}"           
             alt=""
           />
-          <p>Tote bag</p>
+          <p>Scented Candle</p>
         </div>
         <div>
           <img
             class="grid-item grid-item-3"
-            src="{{ asset('image/choose1.png') }}"           
+            src="{{ asset('image/wine2.jpg') }}"           
             alt=""
           />
-          <p>Hemp Bag</p>
+          <p>Wine Glass</p>
         </div>
         <div>
           <img
             class="grid-item grid-item-4"
-            src="{{ asset('image/choose5.png') }}"           
+            src="{{ asset('image/candlee3.jpg') }}"           
             alt=""
           />
-          <p>Tote Bag</p>
+          <p>Candle</p>
         </div>
         <div>
           <img
             class="grid-item grid-item-5"
-            src="{{ asset('image/choose2.png') }}"           
+            src="{{ asset('image/wine b2.jpg') }}"           
             alt=""
           />
-          <p>Scrunchies</p>
+          <p>Vintage Wine</p>
         </div>
         <div>
           <img
             class="grid-item grid-item-6"
-            src="{{ asset('image/choose6.png') }}"           
+            src="{{ asset('image/candle2.jpg') }}"           
             alt=""
           />
-          <p>Scrunchies</p>
+          <p>Vanilla Candle</p>
         </div>
         <div>
           <img
             class="grid-item grid-item-7"
-            src="{{ asset('image/choose2.png') }}"           
+            src="{{ asset('image/wine glass 1.jpg') }}"           
             alt=""
           />
-          <p>Scrunchies</p>
+          <p>Wine Glasses</p>
         </div>
         <div>
           <img
             class="grid-item grid-item-8"
-            src="{{ asset('image/choose6.png') }}"           
+            src="{{ asset('image/wine4.jpg') }}"           
             alt=""
           />
-          <p>Scrunchies</p>
+          <p>Wine Glasses</p>
         </div>
        
     

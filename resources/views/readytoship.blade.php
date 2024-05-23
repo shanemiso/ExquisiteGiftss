@@ -80,7 +80,7 @@
             src="{{ asset('image/grid-img1.png') }}"
             alt=""
           />
-          <p>Birthday Box</p>
+          <p>Fathers Day Box</p>
         </div>
         <div>
           <img
@@ -88,7 +88,7 @@
             src="{{ asset('image/grid-img2.png') }}"
             alt=""
           />
-          <p>Mothers Day Box</p>
+          <p>Mother's Day Box</p>
         </div>
         <div>
           <img
@@ -104,7 +104,7 @@
             src="{{ asset('image/grid-img4.png') }}"
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Mother's Day Box</p>
         </div>
         <div>
           <img
@@ -112,7 +112,7 @@
             src="{{ asset('image/grid-img5.png') }}"
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Christmas Day Box</p>
         </div>
         <div>
           <img
@@ -120,7 +120,7 @@
             src="{{ asset('image/grid-img6.png') }}"
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Mother's Day Box</p>
         </div>
         <div>
           <img
@@ -128,7 +128,7 @@
             src="{{ asset('image/grid-img7.png') }}"
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Christmas Day Box</p>
         </div>
         <div>
           <img
@@ -136,7 +136,7 @@
             src="{{ asset('image/grid-img8.png') }}"
             alt=""
           />
-          <p>Mother's Day</p>
+          <p> Father's Day Box</p>
         </div>
         <div>
           <img
@@ -144,7 +144,7 @@
             src="{{ asset('image/grid-img1.png') }}"
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Father's Day Box</p>
         </div>
         <div>
           <img
@@ -152,7 +152,7 @@
             src="{{ asset('image/grid-img2.png') }}"
             alt=""
           />
-          <p>Father's Day</p>
+          <p>Gift for her Box</p>
         </div>
         <div>
           <img
@@ -160,7 +160,7 @@
             src="{{ asset('image/grid-img3.png') }}"
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Pink Gift Box</p>
         </div>
         <div>
           <img
@@ -168,7 +168,7 @@
             src="{{ asset('image/grid-img4.png') }}"
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Christmas Gift  Box</p>
         </div>
         <div>
           <img
@@ -176,7 +176,7 @@
             src="{{ asset('image/grid-img5.png') }}"
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Christmas  Gift Box</p>
         </div>
         <div>
           <img
@@ -184,7 +184,7 @@
             src="{{ asset('image/grid-img6.png') }}"
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Happy Diwali Box</p>
         </div>
         <div>
           <img
@@ -192,7 +192,7 @@
             src="{{ asset('image/grid-img7.png') }}"
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Father's Day Box</p>
         </div>
         <div>
           <img
@@ -200,7 +200,7 @@
             src="{{ asset('image/grid-img8.png') }}"
             alt=""
           />
-          <p>Mother's Day</p>
+          <p>Mother's Day Box</p>
         </div>
       </div>
       <div class="email-container">
