@@ -85,9 +85,6 @@ class AuthController extends Controller
     {
         Auth::logout();
 
-        return redirect()->to($this->auth0->logout([
-            'returnTo' => config('auth0.logout_redirect_uri'),
-            'client_id' => config('auth0.client_id'),
-        ]));
+        return redirect()->to($this->auth0->logout(config('auth0.logout_redirect_uri')));
     }
 }

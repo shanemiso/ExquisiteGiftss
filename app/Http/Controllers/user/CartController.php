@@ -21,7 +21,7 @@ class CartController extends Controller
             return response()->json(['error' => 'Product not found'], 404);
         }
 
-        $user = Auth::user();
+        $user = AuthController::user();
 
         $cartItem = Cart::where('userId', $user->id)
             ->where('productId', $productId)
